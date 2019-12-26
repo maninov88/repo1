@@ -1,0 +1,31 @@
+<apex:page controller="Abc">
+  <apex:form >
+        <apex:pageBlock title="Interview Three">
+        
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Process Selected" action="{!processSelected}" rerender="out"/>
+            </apex:pageBlockButtons>
+           <apex:pageBlockSection columns="2">
+            <apex:pageBlockTable value="{!Accounts}" var="Acc" columnsWidth="150px,150px" align="left">
+                <apex:column >
+                   
+                    <apex:inputCheckbox value="{!Acc.selected}"/>
+                </apex:column>
+                
+                <apex:column value="{!Acc.con.Id}" />
+               <!-- <apex:column value="{!Acc.con.Phone}" />
+-->            </apex:pageBlockTable>
+         
+               <apex:pageBlockTable value="{!selectedAccounts}" var="Rec" id="out" align="right" title="Selected Accounts">
+                    <apex:column headerValue="Account Id">
+                        <apex:outputField value="{!Rec.Id}"/>
+                   </apex:column>   
+                  <!--  <apex:column headerValue="Phone">
+                        <apex:outputField value="{!Rec.Phone}"/>
+                    </apex:column>-->             
+                </apex:pageBlockTable>   
+          </apex:pageBlockSection> 
+        </apex:pageBlock>
+    </apex:form>
+    
+</apex:page>
