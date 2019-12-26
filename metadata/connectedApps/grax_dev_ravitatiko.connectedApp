@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nkumar@hardingpoint.com</contactEmail>
+    <contactPhone>7042866186</contactPhone>
+    <label>grax_dev_ravitatiko</label>
+    <oauthConfig>
+        <callbackUrl>https://grax-dev-ravitatiko.herokuapp.com/graxproxy/api/enrich/matches</callbackUrl>
+        <consumerKey>3MVG9KsVczVNcM8yfw2MZUO39F_1b9MiysCNOIdaIyYDduOxzLdpc7GRMaC.8sWZs5oKSN22kg5epdx.ob6MG</consumerKey>
+        <scopes>Web</scopes>
+    </oauthConfig>
+</ConnectedApp>
