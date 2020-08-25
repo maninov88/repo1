@@ -131,16 +131,6 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": false,
-      "childSObject": "TransactionSecurityPolicy",
-      "deprecatedAndHidden": false,
-      "field": "ApexPolicyId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": true
     }
   ],
   "compactLayoutable": false,
@@ -1023,6 +1013,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All apex classes",
