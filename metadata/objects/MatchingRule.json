@@ -192,6 +192,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Account"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Contact"
         },
         {
@@ -1277,6 +1284,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All matching rules",
