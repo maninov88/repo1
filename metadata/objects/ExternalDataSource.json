@@ -53,6 +53,16 @@
       "restrictedDelete": false
     },
     {
+      "cascadeDelete": false,
+      "childSObject": "RecordRecommendation",
+      "deprecatedAndHidden": false,
+      "field": "ExternalDataSourceId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
       "cascadeDelete": true,
       "childSObject": "SetupEntityAccess",
       "deprecatedAndHidden": false,
@@ -1617,6 +1627,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All external data sources",
