@@ -374,6 +374,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Campaign Image",
+          "validFor": null,
+          "value": "CampaignImage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Campaign Member Type",
           "validFor": null,
           "value": "CampaignMemberRecordType"
@@ -395,9 +402,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Campaign Tactic",
+          "validFor": null,
+          "value": "Campaign_Tactic__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Created.",
           "validFor": null,
           "value": "created"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DB Days",
+          "validFor": null,
+          "value": "DB_Days__c"
         },
         {
           "active": true,
@@ -426,6 +447,13 @@
           "label": "Expected Revenue in Campaign",
           "validFor": null,
           "value": "ExpectedRevenue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "external id",
+          "validFor": null,
+          "value": "external_id__c"
         },
         {
           "active": true,
@@ -661,6 +689,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All campaign field history",
