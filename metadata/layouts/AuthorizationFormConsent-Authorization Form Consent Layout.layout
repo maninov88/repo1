@@ -27,11 +27,15 @@
                 <field>ConsentCapturedDateTime</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>ConsentGiverId</field>
+                <behavior>Edit</behavior>
+                <field>DocumentVersionId</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>ConsentGiverId</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>ConsentCapturedSource</field>
