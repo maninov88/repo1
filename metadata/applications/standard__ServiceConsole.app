@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <consoleConfig>
+        <componentList>
+            <alignment>right</alignment>
+            <components>Console.BuiltInComponent.mostRecentlyUsed</components>
+        </componentList>
         <detailPageRefreshMethod>none</detailPageRefreshMethod>
         <keyboardShortcuts>
             <defaultShortcuts>
@@ -158,6 +162,15 @@
             <location>full</location>
         </listPlacement>
         <listRefreshMethod>none</listRefreshMethod>
+        <liveAgentConfig>
+            <enableLiveChat>true</enableLiveChat>
+            <openNewAccountSubtab>false</openNewAccountSubtab>
+            <openNewCaseSubtab>false</openNewCaseSubtab>
+            <openNewContactSubtab>false</openNewContactSubtab>
+            <openNewLeadSubtab>false</openNewLeadSubtab>
+            <openNewVFPageSubtab>false</openNewVFPageSubtab>
+            <showKnowledgeArticles>true</showKnowledgeArticles>
+        </liveAgentConfig>
     </consoleConfig>
     <defaultLandingTab>standard-home</defaultLandingTab>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
@@ -174,12 +187,25 @@
         <enableTabLimits>false</enableTabLimits>
         <saveUserSessions>true</saveUserSessions>
     </preferences>
+    <tabs>standard-home</tabs>
+    <tabs>standard-UserProfile</tabs>
+    <tabs>standard-Lead</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
-    <tabs>standard-Lead</tabs>
+    <tabs>standard-Knowledge</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>Sample_Parent__c</tabs>
+    <tabs>Limits_Snapshot__c</tabs>
+    <tabs>wide_nofragment__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Limits_Snapshot__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sample_Parent__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -192,11 +218,26 @@
             <tab>standard-Contact</tab>
         </mappings>
         <mappings>
+            <tab>standard-Dashboard</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Knowledge</tab>
+        </mappings>
+        <mappings>
             <tab>standard-Lead</tab>
         </mappings>
         <mappings>
             <fieldName>AccountId</fieldName>
             <tab>standard-Opportunity</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-UserProfile</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+        <mappings>
+            <tab>wide_nofragment__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>
