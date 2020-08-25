@@ -402,9 +402,30 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Case Record Type",
+          "validFor": null,
+          "value": "RecordType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Case Source",
+          "validFor": null,
+          "value": "Source"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Closed.",
           "validFor": null,
           "value": "closed"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Closed by Self-Service User",
+          "validFor": null,
+          "value": "IsSelfServiceClosed"
         },
         {
           "active": true,
@@ -430,6 +451,34 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "DateTime Closed",
+          "validFor": null,
+          "value": "DateTime_Closed_c__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DateTime Opened",
+          "validFor": null,
+          "value": "DateTime_Opened_c__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DB Case Duration Hours",
+          "validFor": null,
+          "value": "DB_Case_Duration_Hours__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DB Hours",
+          "validFor": null,
+          "value": "DB_Hours__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Description",
           "validFor": null,
           "value": "Description"
@@ -437,9 +486,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Engineering Req Number",
+          "label": "Entitlement Name",
           "validFor": null,
-          "value": "EngineeringReqNumber__c"
+          "value": "Entitlement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Entitlement Process Start Time",
+          "validFor": null,
+          "value": "SlaStartDate"
         },
         {
           "active": true,
@@ -447,6 +503,13 @@
           "label": "Escalated",
           "validFor": null,
           "value": "IsEscalated"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "external id",
+          "validFor": null,
+          "value": "external_id__c"
         },
         {
           "active": true,
@@ -461,6 +524,20 @@
           "label": "Individual Merged",
           "validFor": null,
           "value": "individualMerged"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Language",
+          "validFor": null,
+          "value": "Language"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Last Payment",
+          "validFor": null,
+          "value": "Last_Payment__c"
         },
         {
           "active": true,
@@ -493,9 +570,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Potential Liability",
+          "label": "Payment Billing",
           "validFor": null,
-          "value": "PotentialLiability__c"
+          "value": "Payment_Billing__c"
         },
         {
           "active": true,
@@ -509,7 +586,14 @@
           "defaultValue": false,
           "label": "Product",
           "validFor": null,
-          "value": "Product__c"
+          "value": "Product"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Question from Chatter",
+          "validFor": null,
+          "value": "FeedItem"
         },
         {
           "active": true,
@@ -528,16 +612,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "SLA Violation",
+          "label": "Status",
           "validFor": null,
-          "value": "SLAViolation__c"
+          "value": "Status"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Status",
+          "label": "Stopped",
           "validFor": null,
-          "value": "Status"
+          "value": "IsStopped"
         },
         {
           "active": true,
@@ -552,6 +636,13 @@
           "label": "Type",
           "validFor": null,
           "value": "Type"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Visible in Self-Service Portal",
+          "validFor": null,
+          "value": "IsVisibleInSelfService"
         }
       ],
       "polymorphicForeignKey": false,
@@ -710,6 +801,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All case history",
