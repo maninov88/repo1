@@ -381,6 +381,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Include in selected channels",
+          "validFor": null,
+          "value": "IsInsertable"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Individual Merged",
           "validFor": null,
           "value": "individualMerged"
@@ -433,6 +440,20 @@
           "label": "Record unlocked.",
           "validFor": null,
           "value": "unlocked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Shortcode",
+          "validFor": null,
+          "value": "Shortcode"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Source Entity Type",
+          "validFor": null,
+          "value": "SourceType"
         }
       ],
       "polymorphicForeignKey": false,
@@ -591,6 +612,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All quick text history",
