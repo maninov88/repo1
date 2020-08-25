@@ -4,7 +4,7 @@
   "childRelationships": [
     {
       "cascadeDelete": true,
-      "childSObject": "AccountShare",
+      "childSObject": "AccountBrandShare",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
       "junctionIdListNames": [],
@@ -14,7 +14,7 @@
     },
     {
       "cascadeDelete": true,
-      "childSObject": "AssetShare",
+      "childSObject": "AccountShare",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
       "junctionIdListNames": [],
@@ -35,6 +35,36 @@
     {
       "cascadeDelete": true,
       "childSObject": "CaseShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ChannelProgramLevelShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ChannelProgramMemberShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ChannelProgramShare",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
       "junctionIdListNames": [],
@@ -83,6 +113,16 @@
       "restrictedDelete": false
     },
     {
+      "cascadeDelete": true,
+      "childSObject": "ExternalEventMappingShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
       "cascadeDelete": false,
       "childSObject": "FieldDefinition",
       "deprecatedAndHidden": false,
@@ -95,16 +135,6 @@
     {
       "cascadeDelete": true,
       "childSObject": "FlowInterviewShare",
-      "deprecatedAndHidden": false,
-      "field": "UserOrGroupId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
-      "cascadeDelete": true,
-      "childSObject": "ForecastShare",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
       "junctionIdListNames": [],
@@ -144,7 +174,27 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "InsightUserValueShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "LeadShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Limits_Snapshot__Share",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
       "junctionIdListNames": [],
@@ -164,7 +214,47 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "LiveAgentSessionShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "LiveChatTranscriptShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "MacroShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "MessagingEndUserShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "MessagingSessionShare",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
       "junctionIdListNames": [],
@@ -194,7 +284,47 @@
     },
     {
       "cascadeDelete": true,
-      "childSObject": "OrgDeleteRequestShare",
+      "childSObject": "PartnerFundAllocationShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "PartnerFundClaimShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "PartnerFundRequestShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "PartnerMarketingBudgetShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProfileSkillShare",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
       "junctionIdListNames": [],
@@ -215,6 +345,56 @@
     {
       "cascadeDelete": true,
       "childSObject": "QuickTextShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "QuoteShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "SOSSessionShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "Sample_Parent__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ServiceContractShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "SocialPostShare",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
       "junctionIdListNames": [],
@@ -285,6 +465,166 @@
     {
       "cascadeDelete": true,
       "childSObject": "UserShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "WorkAccessShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "WorkBadgeDefinitionShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "WorkOrderShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "WorkThanksShare",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "fragment1__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "fragment1_wide__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "fragment2__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "fragment2_wide__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "fragment7__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "fragment7_wide__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "fragment8__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "grax__GRAX_Data_Record__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "grax__GRAX_GroupGDR__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "grax__GRAX_Helper__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "grax__GRAX_Schedule_Process__Share",
+      "deprecatedAndHidden": false,
+      "field": "UserOrGroupId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "wide_nofragment__Share",
       "deprecatedAndHidden": false,
       "field": "UserOrGroupId",
       "junctionIdListNames": [],
@@ -524,6 +864,7 @@
       "queryByDistance": false,
       "referenceTargetField": null,
       "referenceTo": [
+        "Territory2",
         "User",
         "UserRole"
       ],
@@ -1256,6 +1597,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All groups",
