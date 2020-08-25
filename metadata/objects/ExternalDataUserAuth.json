@@ -715,7 +715,7 @@
       "aggregatable": false,
       "aiPredictionField": false,
       "autoNumber": false,
-      "byteLength": 3600,
+      "byteLength": 18000,
       "calculated": false,
       "calculatedFormula": null,
       "cascadeDelete": false,
@@ -743,7 +743,7 @@
       "idLookup": false,
       "inlineHelpText": null,
       "label": "Password",
-      "length": 1200,
+      "length": 6000,
       "mask": null,
       "maskType": null,
       "name": "Password",
@@ -851,6 +851,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All external data user authentications",
