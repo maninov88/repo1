@@ -4,16 +4,6 @@
   "childRelationships": [
     {
       "cascadeDelete": false,
-      "childSObject": "Contract",
-      "deprecatedAndHidden": false,
-      "field": "Pricebook2Id",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": "Contracts",
-      "restrictedDelete": true
-    },
-    {
-      "cascadeDelete": false,
       "childSObject": "FlowRecordRelation",
       "deprecatedAndHidden": false,
       "field": "RelatedRecordId",
@@ -83,6 +73,26 @@
       "restrictedDelete": false
     },
     {
+      "cascadeDelete": false,
+      "childSObject": "Quote",
+      "deprecatedAndHidden": false,
+      "field": "Pricebook2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "Quotes",
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "QuoteChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "Pricebook2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
       "cascadeDelete": true,
       "childSObject": "RecordAction",
       "deprecatedAndHidden": false,
@@ -90,6 +100,36 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": "RecordActions",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ServiceContract",
+      "deprecatedAndHidden": false,
+      "field": "Pricebook2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ServiceContracts",
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ServiceContractChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "Pricebook2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "WorkOrder",
+      "deprecatedAndHidden": false,
+      "field": "Pricebook2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "WorkOrders",
       "restrictedDelete": false
     }
   ],
@@ -964,6 +1004,7 @@
   "retrieveable": true,
   "searchLayoutable": true,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All price books",
@@ -976,11 +1017,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/Pricebook2/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/Pricebook2/{ID}",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/Pricebook2/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/Pricebook2/describe",
-    "uiNewRecord": "https://na85.salesforce.com/01s/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/01s/e",
     "layouts": "/services/data/v43.0/sobjects/Pricebook2/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/Pricebook2"
   }
