@@ -43,6 +43,16 @@
       "restrictedDelete": false
     },
     {
+      "cascadeDelete": true,
+      "childSObject": "EventRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "EventRelations",
+      "restrictedDelete": false
+    },
+    {
       "cascadeDelete": false,
       "childSObject": "EventRelationChangeEvent",
       "deprecatedAndHidden": false,
@@ -73,16 +83,6 @@
       "restrictedDelete": false
     },
     {
-      "cascadeDelete": false,
-      "childSObject": "OutgoingEmail",
-      "deprecatedAndHidden": false,
-      "field": "RelatedToId",
-      "junctionIdListNames": [],
-      "junctionReferenceTo": [],
-      "relationshipName": null,
-      "restrictedDelete": false
-    },
-    {
       "cascadeDelete": true,
       "childSObject": "RecordAction",
       "deprecatedAndHidden": false,
@@ -107,6 +107,26 @@
       "childSObject": "TaskChangeEvent",
       "deprecatedAndHidden": false,
       "field": "WhatId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "TaskRelation",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "TaskRelations",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskRelationChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "RelationId",
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": null,
@@ -825,17 +845,26 @@
       "referenceTo": [
         "Account",
         "Case",
-        "CustomObject1__c",
+        "Limits_Snapshot__c",
         "Opportunity",
-        "Order_Line_Item__c",
-        "co1__c",
-        "customObject3__c",
-        "grax__GRAXQuery__c",
+        "Sample_Child__c",
+        "Sample_Parent__c",
+        "WorkOrder",
+        "fragment1__c",
+        "fragment1_wide__c",
+        "fragment2__c",
+        "fragment2_wide__c",
+        "fragment7__c",
+        "fragment7_wide__c",
+        "fragment8__c",
         "grax__GRAXSettings__c",
         "grax__GRAX_Archive_Process__c",
         "grax__GRAX_Data_Record_Id__c",
         "grax__GRAX_Data_Record__c",
-        "grax__GRAX_Schedule_Process__c"
+        "grax__GRAX_GroupGDR__c",
+        "grax__GRAX_Helper__c",
+        "grax__GRAX_Schedule_Process__c",
+        "wide_nofragment__c"
       ],
       "relationshipName": "What",
       "relationshipOrder": null,
@@ -1160,6 +1189,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All contact requests",
@@ -1188,11 +1218,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/ContactRequest/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/ContactRequest/{ID}",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/ContactRequest/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/ContactRequest/describe",
-    "uiNewRecord": "https://na85.salesforce.com/0Tz/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/0Tz/e",
     "layouts": "/services/data/v43.0/sobjects/ContactRequest/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/ContactRequest"
   }
