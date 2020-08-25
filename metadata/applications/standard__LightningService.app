@@ -12,10 +12,19 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>standard-home</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>Sample_Parent__c</tabs>
+    <tabs>Limits_Snapshot__c</tabs>
+    <tabs>wide_nofragment__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Limits_Snapshot__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sample_Parent__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -29,10 +38,13 @@
             <tab>standard-Dashboard</tab>
         </mappings>
         <mappings>
-            <tab>standard-home</tab>
+            <tab>standard-Feed</tab>
         </mappings>
         <mappings>
             <tab>standard-report</tab>
+        </mappings>
+        <mappings>
+            <tab>wide_nofragment__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>
