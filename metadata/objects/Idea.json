@@ -795,7 +795,7 @@
       "formulaTreatNullNumberAsZero": false,
       "groupable": false,
       "highScaleNumber": false,
-      "htmlFormatted": true,
+      "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
       "label": "Idea Body",
@@ -1004,10 +1004,10 @@
       "writeRequiresMasterRead": false
     },
     {
-      "aggregatable": false,
+      "aggregatable": true,
       "aiPredictionField": false,
       "autoNumber": false,
-      "byteLength": 4099,
+      "byteLength": 120,
       "calculated": false,
       "calculatedFormula": null,
       "cascadeDelete": false,
@@ -1029,23 +1029,23 @@
       "filterable": true,
       "filteredLookupInfo": null,
       "formulaTreatNullNumberAsZero": false,
-      "groupable": false,
+      "groupable": true,
       "highScaleNumber": false,
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Categories",
-      "length": 4099,
+      "label": "Category",
+      "length": 40,
       "mask": null,
       "maskType": null,
-      "name": "Categories",
+      "name": "Category",
       "nameField": false,
       "namePointing": false,
       "nillable": true,
       "permissionable": false,
       "picklistValues": [],
       "polymorphicForeignKey": false,
-      "precision": 7,
+      "precision": 0,
       "queryByDistance": false,
       "referenceTargetField": null,
       "referenceTo": [],
@@ -1056,8 +1056,8 @@
       "scale": 0,
       "searchPrefilterable": false,
       "soapType": "xsd:string",
-      "sortable": false,
-      "type": "multipicklist",
+      "sortable": true,
+      "type": "picklist",
       "unique": false,
       "updateable": true,
       "writeRequiresMasterRead": false
@@ -1617,12 +1617,36 @@
       "active": true,
       "available": false,
       "defaultRecordTypeMapping": false,
+      "developerName": "Record_type_for_community_09a15000000TS5kAAG_entity_Idea",
+      "master": false,
+      "name": "Customer Ideas: Idea Record Type",
+      "recordTypeId": "0126g000000ypEWAAY",
+      "urls": {
+        "layout": "/services/data/v43.0/sobjects/Idea/describe/layouts/0126g000000ypEWAAY"
+      }
+    },
+    {
+      "active": true,
+      "available": false,
+      "defaultRecordTypeMapping": false,
       "developerName": "InternalIdeasIdeaRecordType",
       "master": false,
       "name": "Internal Ideas: Idea Record Type",
-      "recordTypeId": "0121U0000016GRBQA2",
+      "recordTypeId": "0126g000000ypEgAAI",
       "urls": {
-        "layout": "/services/data/v43.0/sobjects/Idea/describe/layouts/0121U0000016GRBQA2"
+        "layout": "/services/data/v43.0/sobjects/Idea/describe/layouts/0126g000000ypEgAAI"
+      }
+    },
+    {
+      "active": true,
+      "available": false,
+      "defaultRecordTypeMapping": false,
+      "developerName": "Record_type_for_community_09a15000000TS5pAAG_entity_Idea",
+      "master": false,
+      "name": "Partner Ideas: Idea Record Type",
+      "recordTypeId": "0126g000000ypEZAAY",
+      "urls": {
+        "layout": "/services/data/v43.0/sobjects/Idea/describe/layouts/0126g000000ypEZAAY"
       }
     },
     {
@@ -1642,6 +1666,7 @@
   "retrieveable": true,
   "searchLayoutable": true,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All ideas",
@@ -1654,11 +1679,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/Idea/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/Idea/{ID}",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/Idea/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/Idea/describe",
-    "uiNewRecord": "https://na85.salesforce.com/087/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/087/e",
     "layouts": "/services/data/v43.0/sobjects/Idea/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/Idea"
   }
