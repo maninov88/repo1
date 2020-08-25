@@ -161,7 +161,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Sobject Type Name",
+      "label": "SObject Type Name",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -211,6 +211,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "AcctMgrTarget"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ActionCadence"
         },
         {
@@ -253,7 +260,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ActionPlanTmplItmAssessmentInd"
+          "value": "ActivationTarget"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ActivationTrgtIntOrgAccess"
         },
         {
           "active": true,
@@ -344,6 +358,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "AiVisitSummary"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "AppAnalyticsQueryRequest"
         },
         {
@@ -351,7 +372,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "AssessmentIndDefinedValue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "AssessmentIndicatorDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AssessmentIndValue"
         },
         {
           "active": true,
@@ -372,6 +407,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "AssessmentTaskDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AssessmentTaskIndDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "AssessmentTaskOrder"
         },
         {
@@ -386,7 +435,35 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "AssetAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AssetActionSource"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "AssetStatePeriod"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AssistantText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AssistantTextRange"
         },
         {
           "active": true,
@@ -401,6 +478,20 @@
           "label": null,
           "validFor": null,
           "value": "AssortmentProduct"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AuthApplicationPlace"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AuthLocationAccessSchedule"
         },
         {
           "active": true,
@@ -435,7 +526,35 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "AuthorizedInsuranceLine"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Award"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "BatchJob"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "BatchJobPart"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "BatchJobPartFailedRecord"
         },
         {
           "active": true,
@@ -485,6 +604,13 @@
           "label": null,
           "validFor": null,
           "value": "BillingTreatment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "BlockchainEvent"
         },
         {
           "active": true,
@@ -624,6 +750,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "CareMetricTarget"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CareObservation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CarePgmProvHealthcareProvider"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "CarePreauth"
         },
         {
@@ -723,6 +870,13 @@
           "label": null,
           "validFor": null,
           "value": "CareProviderSearchableField"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CareRegisteredDevice"
         },
         {
           "active": true,
@@ -876,7 +1030,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "co1__c"
+          "value": "CodeSet"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommerceCustomer"
         },
         {
           "active": true,
@@ -884,6 +1045,48 @@
           "label": null,
           "validFor": null,
           "value": "CommerceEntitlementPolicy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommerceGuestOrder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommerceOrderCustomer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommSubscription"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommSubscriptionChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommSubscriptionConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommSubscriptionTiming"
         },
         {
           "active": true,
@@ -898,6 +1101,13 @@
           "label": null,
           "validFor": null,
           "value": "Contact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ContactEncounter"
         },
         {
           "active": true,
@@ -960,6 +1170,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "CourseOffering"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "CoverageBenefit"
         },
         {
@@ -988,7 +1205,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "CreditMemoLine"
+          "value": "Crisis"
         },
         {
           "active": true,
@@ -1002,20 +1219,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "CustomObject1__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "customObject3__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "DandBCompany"
         },
         {
@@ -1023,7 +1226,203 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "DataConnectorMC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataConnectorS3"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataConnectorSftp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataConnectorUpload"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataEntCategory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataExportDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataExportIntOrgAccess"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataImportDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataLandFieldDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataLandObjectDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataModelEnt"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataModelEntAttr"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataModelEntAttrRel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataModelRestriction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataModelTaxonomy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataModelVersion"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataObjectCategory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataPlatform"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataSource"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataSourceObject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataSourceTenant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataSrcEnt"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataSrcEntAttr"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataSrcEntAttrMap"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataSrcEntDefAttrMap"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataStream"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "DataStreamDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataTranFieldDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataTranObjectDefinition"
         },
         {
           "active": true,
@@ -1038,6 +1437,41 @@
           "label": null,
           "validFor": null,
           "value": "DataUsePurpose"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataViewFieldDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataViewObjectDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DelegatedAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DigitalWallet"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DistributorAuthorization"
         },
         {
           "active": true,
@@ -1073,6 +1507,55 @@
           "label": null,
           "validFor": null,
           "value": "ElectronicMediaGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Employee"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EmployeeAsset"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EmployeeContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EmployeeCrisisAssessment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EmployeeJob"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EmployeeJobPosition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EngagementChannelType"
         },
         {
           "active": true,
@@ -1135,7 +1618,112 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Examination"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Expense"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ExternalAccountHierarchy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ExternalDataConnector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "FAQ__ka"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "FAQ__kav"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "FieldSrcTrgtRelationship"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "FinanceBalanceSnapshot"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "FinanceTransaction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment1__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment1_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment2_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment7__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment7_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment8__c"
         },
         {
           "active": true,
@@ -1150,6 +1738,13 @@
           "label": null,
           "validFor": null,
           "value": "FtestChild"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "FtestChildConcrete"
         },
         {
           "active": true,
@@ -1268,6 +1863,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "FtestEntityFieldFamilyBase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "FtestError"
         },
         {
@@ -1317,6 +1919,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "FTestStandardEventHV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "FtestVirtualMain"
         },
         {
@@ -1325,6 +1934,13 @@
           "label": null,
           "validFor": null,
           "value": "FulfillmentOrder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "FunctionInvocationRequest"
         },
         {
           "active": true,
@@ -1366,14 +1982,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "grax__GRAX_Schedule_Process__c"
+          "value": "grax__GRAX_GroupGDR__c"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "grax__GRAXQuery__c"
+          "value": "grax__GRAX_Helper__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "grax__GRAX_Schedule_Process__c"
         },
         {
           "active": true,
@@ -1450,6 +2073,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "How_To__ka"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "How_To__kav"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Idea"
         },
         {
@@ -1486,6 +2123,34 @@
           "label": null,
           "validFor": null,
           "value": "Individual"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "IndividualApplication"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "InspectionAssessmentInd"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "InspectionType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "InspectionViolation"
         },
         {
           "active": true,
@@ -1548,6 +2213,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "InternalDataConnector"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "InternalOrganization"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "InternalOrganizationUnit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Invoice"
         },
         {
@@ -1555,7 +2241,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "InvoiceLine"
+          "value": "JobFamily"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "JobPosition"
         },
         {
           "active": true,
@@ -1576,6 +2269,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "LegalEntity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "LicensingError"
         },
         {
@@ -1584,6 +2284,13 @@
           "label": null,
           "validFor": null,
           "value": "LicensingRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Limits_Snapshot__c"
         },
         {
           "active": true,
@@ -1696,6 +2403,13 @@
           "label": null,
           "validFor": null,
           "value": "Location"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LoyaltyLedger"
         },
         {
           "active": true,
@@ -1821,6 +2535,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "MarketSegmentActivation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MarketSegmentField"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MasterPrflDataSrcLineage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "MemberPlan"
         },
         {
@@ -1856,6 +2591,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "MktSgmntActvtnAudAttribute"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MktSgmntActvtnContactPoint"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "MyCustomObject"
         },
         {
@@ -1864,6 +2613,13 @@
           "label": null,
           "validFor": null,
           "value": "NamespaceRegistry"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ObjectSourceTargetMap"
         },
         {
           "active": true,
@@ -1898,21 +2654,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Order_Line_Item__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "OrderDeliveryMethod"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrderPaymentSummary"
         },
         {
           "active": true,
@@ -1955,6 +2697,48 @@
           "label": null,
           "validFor": null,
           "value": "PartnerMarketingBudget"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PartyConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PartyIdMatchRuleCriteria"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PartyMatchRule"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PartyMatchRuleCriteria"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PartyReconRule"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PartyReconRuleSeq"
         },
         {
           "active": true,
@@ -2052,6 +2836,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "PersonExamination"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "PersonLifeEvent"
         },
         {
@@ -2060,6 +2851,20 @@
           "label": null,
           "validFor": null,
           "value": "PersonList"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PgmRebateTypBnftMapping"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PilotEmployee"
         },
         {
           "active": true,
@@ -2081,6 +2886,13 @@
           "label": null,
           "validFor": null,
           "value": "PlatformLicenseDefinition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PreliminaryApplicationRef"
         },
         {
           "active": true,
@@ -2122,6 +2934,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ProductAvailabilityProjection"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ProductCatalog"
         },
         {
@@ -2144,6 +2963,13 @@
           "label": null,
           "validFor": null,
           "value": "ProductCoverage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ProductFulfillmentLocation"
         },
         {
           "active": true,
@@ -2199,6 +3025,34 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ProgramRebateType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ProgramRebateTypeBenefit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ProgramRebateTypePayout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ProgramRebateTypPayoutSrc"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Promotion"
         },
         {
@@ -2221,6 +3075,13 @@
           "label": null,
           "validFor": null,
           "value": "PromotionProductCategory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PublicComplaint"
         },
         {
           "active": true,
@@ -2269,6 +3130,62 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "RebatePayment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RebatePayoutAdjustment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RebateProgram"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RebateProgramMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RebateProgramMemberPayout"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RebateProgramPayoutPeriod"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RecordsetFilterCriteria"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RefModelInstalled"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Refund"
         },
         {
@@ -2283,6 +3200,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "RegAuthorizationTypeProduct"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "RegisteredMobileDevice"
         },
         {
@@ -2290,7 +3214,35 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "RegulatoryAuthority"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "RegulatoryAuthorizationType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RegulatoryCode"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RegulatoryCodeAssessmentInd"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "RegulatoryCodeViolation"
         },
         {
           "active": true,
@@ -2353,14 +3305,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "SalesBundleProduct"
+          "value": "SalesChannel"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "SalesChannel"
+          "value": "Sample_Child__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Sample_Parent__c"
         },
         {
           "active": true,
@@ -2507,6 +3466,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "StoreActionPlanTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "StoreAssortment"
         },
         {
@@ -2577,7 +3543,35 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "TrainingCourseParticipant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TransactionJournal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "TrialEnvironmentSignup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TrnCourse"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "UnitOfMeasure"
         },
         {
           "active": true,
@@ -2605,7 +3599,56 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ViolationEnforcementAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ViolationInspAssessmentInd"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ViolationType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ViolationTypeAssessmentInd"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Visit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "VisitedParty"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Visitor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "VolunteerProject"
         },
         {
           "active": true,
@@ -2626,6 +3669,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "WebStoreBuyerGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "WebStoreCatalog"
         },
         {
@@ -2640,6 +3690,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "wide_nofragment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Wishlist"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "WorkCapacityLimit"
         },
         {
@@ -2648,6 +3712,13 @@
           "label": null,
           "validFor": null,
           "value": "WorkCoaching"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkContract"
         },
         {
           "active": true,
@@ -2731,6 +3802,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "WorkPlan"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkPlanSelectionRule"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkPlanTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "WorkReward"
         },
         {
@@ -2746,6 +3838,13 @@
           "label": null,
           "validFor": null,
           "value": "WorkRewardFundType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkStepTemplate"
         },
         {
           "active": true,
@@ -3474,6 +4573,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All object permissions",
