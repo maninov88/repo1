@@ -315,27 +315,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Value Proposition",
-          "validFor": null,
-          "value": "Value Proposition"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Id. Decision Makers",
-          "validFor": null,
-          "value": "Id. Decision Makers"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Perception Analysis",
-          "validFor": null,
-          "value": "Perception Analysis"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Proposal/Price Quote",
           "validFor": null,
           "value": "Proposal/Price Quote"
@@ -849,6 +828,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All opportunity history",
