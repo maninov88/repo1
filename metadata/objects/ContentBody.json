@@ -100,6 +100,7 @@
   "retrieveable": false,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All content bodies",
