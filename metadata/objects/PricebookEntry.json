@@ -4,6 +4,26 @@
   "childRelationships": [
     {
       "cascadeDelete": false,
+      "childSObject": "ContractLineItem",
+      "deprecatedAndHidden": false,
+      "field": "PricebookEntryId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContractLineItems",
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ContractLineItemChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "PricebookEntryId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
       "childSObject": "FlowRecordRelation",
       "deprecatedAndHidden": false,
       "field": "RelatedRecordId",
@@ -43,6 +63,26 @@
       "restrictedDelete": false
     },
     {
+      "cascadeDelete": false,
+      "childSObject": "QuoteLineItem",
+      "deprecatedAndHidden": false,
+      "field": "PricebookEntryId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "QuoteLineItems",
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "QuoteLineItemChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "PricebookEntryId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
       "cascadeDelete": true,
       "childSObject": "RecordAction",
       "deprecatedAndHidden": false,
@@ -50,6 +90,16 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": "RecordActions",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "WorkOrderLineItem",
+      "deprecatedAndHidden": false,
+      "field": "PricebookEntryId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "WorkOrderLineItems",
       "restrictedDelete": false
     }
   ],
@@ -915,6 +965,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All price book entries",
@@ -927,11 +978,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/PricebookEntry/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/PricebookEntry/{ID}",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/PricebookEntry/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/PricebookEntry/describe",
-    "uiNewRecord": "https://na85.salesforce.com/01u/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/01u/e",
     "layouts": "/services/data/v43.0/sobjects/PricebookEntry/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/PricebookEntry"
   }
