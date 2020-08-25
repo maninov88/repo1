@@ -840,7 +840,7 @@
       "controllerName": null,
       "createable": true,
       "custom": false,
-      "defaultValue": "Email",
+      "defaultValue": "Live Agent",
       "defaultValueFormula": null,
       "defaultedOnCreate": true,
       "dependentPicklist": false,
@@ -871,6 +871,13 @@
         {
           "active": true,
           "defaultValue": true,
+          "label": "Live Agent",
+          "validFor": null,
+          "value": "Live Agent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Email",
           "validFor": null,
           "value": "Email"
@@ -899,6 +906,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Social",
+          "validFor": null,
+          "value": "Social"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Event",
           "validFor": null,
           "value": "Event"
@@ -909,6 +923,13 @@
           "label": "Task",
           "validFor": null,
           "value": "Task"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging",
+          "validFor": null,
+          "value": "Messaging"
         }
       ],
       "polymorphicForeignKey": false,
@@ -962,6 +983,7 @@
   "retrieveable": true,
   "searchLayoutable": true,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All quick text",
@@ -990,11 +1012,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/QuickText/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/QuickText/{ID}",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/QuickText/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/QuickText/describe",
-    "uiNewRecord": "https://na85.salesforce.com/574/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/574/e",
     "layouts": "/services/data/v43.0/sobjects/QuickText/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/QuickText"
   }
