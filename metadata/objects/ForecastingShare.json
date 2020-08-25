@@ -525,7 +525,7 @@
       "maskType": null,
       "name": "SharedForecastManagerRoleId",
       "nameField": false,
-      "namePointing": false,
+      "namePointing": true,
       "nillable": false,
       "permissionable": false,
       "picklistValues": [],
@@ -534,6 +534,7 @@
       "queryByDistance": false,
       "referenceTargetField": null,
       "referenceTo": [
+        "Territory2",
         "UserRole"
       ],
       "relationshipName": "SharedForecastManagerRole",
@@ -569,6 +570,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All forecasting shares",
