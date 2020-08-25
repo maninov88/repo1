@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>fragment2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>fragment2s</value>
+    </caseValues>
+    <fields>
+        <label><!-- Checkbox10 --></label>
+        <name>Checkbox10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox11 --></label>
+        <name>Checkbox11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox12 --></label>
+        <name>Checkbox12__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox13 --></label>
+        <name>Checkbox13__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox14 --></label>
+        <name>Checkbox14__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox15 --></label>
+        <name>Checkbox15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox16 --></label>
+        <name>Checkbox16__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox17 --></label>
+        <name>Checkbox17__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox18 --></label>
+        <name>Checkbox18__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox19 --></label>
+        <name>Checkbox19__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox1 --></label>
+        <name>Checkbox1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox20 --></label>
+        <name>Checkbox20__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox21 --></label>
+        <name>Checkbox21__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox22 --></label>
+        <name>Checkbox22__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox23 --></label>
+        <name>Checkbox23__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox24 --></label>
+        <name>Checkbox24__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox25 --></label>
+        <name>Checkbox25__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox26 --></label>
+        <name>Checkbox26__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox2 --></label>
+        <name>Checkbox2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox3 --></label>
+        <name>Checkbox3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox4 --></label>
+        <name>Checkbox4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox5 --></label>
+        <name>Checkbox5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox6 --></label>
+        <name>Checkbox6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox7 --></label>
+        <name>Checkbox7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox8 --></label>
+        <name>Checkbox8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox9 --></label>
+        <name>Checkbox9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula100 --></label>
+        <name>Formula100__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula63 --></label>
+        <name>Formula63__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula64 --></label>
+        <name>Formula64__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula65 --></label>
+        <name>Formula65__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula66 --></label>
+        <name>Formula66__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula67 --></label>
+        <name>Formula67__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula68 --></label>
+        <name>Formula68__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula69 --></label>
+        <name>Formula69__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula70 --></label>
+        <name>Formula70__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula71 --></label>
+        <name>Formula71__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula72 --></label>
+        <name>Formula72__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula73 --></label>
+        <name>Formula73__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula74 --></label>
+        <name>Formula74__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula75 --></label>
+        <name>Formula75__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula76 --></label>
+        <name>Formula76__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula77 --></label>
+        <name>Formula77__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula78 --></label>
+        <name>Formula78__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula79 --></label>
+        <name>Formula79__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula80 --></label>
+        <name>Formula80__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula81 --></label>
+        <name>Formula81__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula82 --></label>
+        <name>Formula82__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula83 --></label>
+        <name>Formula83__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula84 --></label>
+        <name>Formula84__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula85 --></label>
+        <name>Formula85__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula86 --></label>
+        <name>Formula86__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula87 --></label>
+        <name>Formula87__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula88 --></label>
+        <name>Formula88__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula89 --></label>
+        <name>Formula89__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula90 --></label>
+        <name>Formula90__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula91 --></label>
+        <name>Formula91__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula92 --></label>
+        <name>Formula92__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula93 --></label>
+        <name>Formula93__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula94 --></label>
+        <name>Formula94__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula95 --></label>
+        <name>Formula95__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula96 --></label>
+        <name>Formula96__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula97 --></label>
+        <name>Formula97__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula98 --></label>
+        <name>Formula98__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula99 --></label>
+        <name>Formula99__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea52 --></label>
+        <name>LongTextArea52__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea53 --></label>
+        <name>LongTextArea53__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea54 --></label>
+        <name>LongTextArea54__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea55 --></label>
+        <name>LongTextArea55__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea56 --></label>
+        <name>LongTextArea56__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea57 --></label>
+        <name>LongTextArea57__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea58 --></label>
+        <name>LongTextArea58__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea59 --></label>
+        <name>LongTextArea59__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea60 --></label>
+        <name>LongTextArea60__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea61 --></label>
+        <name>LongTextArea61__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea62 --></label>
+        <name>LongTextArea62__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number27 --></label>
+        <name>Number27__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number28 --></label>
+        <name>Number28__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number29 --></label>
+        <name>Number29__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number30 --></label>
+        <name>Number30__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number31 --></label>
+        <name>Number31__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number32 --></label>
+        <name>Number32__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number33 --></label>
+        <name>Number33__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number34 --></label>
+        <name>Number34__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number35 --></label>
+        <name>Number35__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number36 --></label>
+        <name>Number36__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number37 --></label>
+        <name>Number37__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number38 --></label>
+        <name>Number38__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number39 --></label>
+        <name>Number39__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number40 --></label>
+        <name>Number40__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number41 --></label>
+        <name>Number41__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number42 --></label>
+        <name>Number42__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number43 --></label>
+        <name>Number43__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number44 --></label>
+        <name>Number44__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number45 --></label>
+        <name>Number45__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number46 --></label>
+        <name>Number46__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number47 --></label>
+        <name>Number47__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number48 --></label>
+        <name>Number48__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number49 --></label>
+        <name>Number49__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number50 --></label>
+        <name>Number50__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number51 --></label>
+        <name>Number51__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
