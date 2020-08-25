@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nzoschke@grax.com</contactEmail>
+    <label>Noah Development</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost/cb</callbackUrl>
+        <consumerKey>3MVG9_I_oWkIqLrl7h.HM0nqegU5qH_YSPEAC7o4XqhLDRYbCjxJEVl6MZazVYP.yEi4mKrEcVsly_BkO2iqh</consumerKey>
+        <scopes>Api</scopes>
+    </oauthConfig>
+</ConnectedApp>
