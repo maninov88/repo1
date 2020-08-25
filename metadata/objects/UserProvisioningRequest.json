@@ -1569,6 +1569,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All user provisioning requests",
@@ -1582,11 +1583,11 @@
     "compactLayouts": "/services/data/v43.0/sobjects/UserProvisioningRequest/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/UserProvisioningRequest/{ID}",
     "approvalLayouts": "/services/data/v43.0/sobjects/UserProvisioningRequest/describe/approvalLayouts",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/UserProvisioningRequest/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/UserProvisioningRequest/describe",
-    "uiNewRecord": "https://na85.salesforce.com/0HP/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/0HP/e",
     "layouts": "/services/data/v43.0/sobjects/UserProvisioningRequest/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/UserProvisioningRequest"
   }
