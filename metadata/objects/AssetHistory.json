@@ -374,13 +374,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Asset Owner",
-          "validFor": null,
-          "value": "Owner"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Asset Provided By",
           "validFor": null,
           "value": "AssetProvidedBy"
@@ -416,9 +409,37 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "DB Days",
+          "validFor": null,
+          "value": "DB_Days__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Description",
           "validFor": null,
           "value": "Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DigitalAssetStatus",
+          "validFor": null,
+          "value": "DigitalAssetStatus"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "External id",
+          "validFor": null,
+          "value": "External_id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "External Id",
+          "validFor": null,
+          "value": "ExternalIdentifier"
         },
         {
           "active": true,
@@ -447,6 +468,13 @@
           "label": "Internal Asset",
           "validFor": null,
           "value": "IsInternal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manufacture Date",
+          "validFor": null,
+          "value": "ManufactureDate"
         },
         {
           "active": true,
@@ -531,6 +559,20 @@
           "label": "Status",
           "validFor": null,
           "value": "Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status Reason",
+          "validFor": null,
+          "value": "StatusReason"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Unique Identifier",
+          "validFor": null,
+          "value": "Uuid"
         },
         {
           "active": true,
@@ -696,6 +738,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All asset history",
