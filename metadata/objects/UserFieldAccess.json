@@ -519,6 +519,7 @@
   "retrieveable": false,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All user field access",
