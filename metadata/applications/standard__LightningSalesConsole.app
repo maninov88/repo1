@@ -14,14 +14,25 @@
     <tabs>standard-Campaign</tabs>
     <tabs>standard-Task</tabs>
     <tabs>standard-Event</tabs>
+    <tabs>standard-ContentNote</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Feed</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>standard-EmailTemplate</tabs>
+    <tabs>Sample_Parent__c</tabs>
+    <tabs>Limits_Snapshot__c</tabs>
+    <tabs>wide_nofragment__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Limits_Snapshot__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Sample_Parent__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -35,7 +46,13 @@
             <tab>standard-Contact</tab>
         </mappings>
         <mappings>
+            <tab>standard-ContentNote</tab>
+        </mappings>
+        <mappings>
             <tab>standard-Dashboard</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-EmailTemplate</tab>
         </mappings>
         <mappings>
             <tab>standard-Event</tab>
@@ -60,6 +77,9 @@
         </mappings>
         <mappings>
             <tab>standard-report</tab>
+        </mappings>
+        <mappings>
+            <tab>wide_nofragment__c</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>
