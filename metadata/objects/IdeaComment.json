@@ -240,7 +240,7 @@
       "formulaTreatNullNumberAsZero": false,
       "groupable": false,
       "highScaleNumber": false,
-      "htmlFormatted": true,
+      "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
       "label": "Comment Body",
@@ -824,6 +824,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All idea comments",
