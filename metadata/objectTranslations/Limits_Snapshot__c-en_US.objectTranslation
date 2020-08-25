@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Limits Snapshot</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Limits Snapshots</value>
+    </caseValues>
+    <fields>
+        <label><!-- Aggregate Queries --></label>
+        <name>Aggregate_Queries__c</name>
+    </fields>
+    <fields>
+        <label><!-- Async Calls --></label>
+        <name>Async_Calls__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPU Time --></label>
+        <name>CPU_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callouts --></label>
+        <name>Callouts__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Rows --></label>
+        <name>DML_Rows__c</name>
+    </fields>
+    <fields>
+        <label><!-- DML Statements --></label>
+        <name>DML_Statements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Elapsed ms --></label>
+        <name>Elapsed_ms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Invocations --></label>
+        <name>Email_Invocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Future Calls --></label>
+        <name>Future_Calls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Heap Size --></label>
+        <name>Heap_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Iterations --></label>
+        <name>Iterations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Push Apex Calls --></label>
+        <name>Mobile_Push_Apex_Calls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profiler Type --></label>
+        <name>Profiler_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queries --></label>
+        <name>Queries__c</name>
+    </fields>
+    <fields>
+        <label><!-- Query Locator Rows --></label>
+        <name>Query_Locator_Rows__c</name>
+    </fields>
+    <fields>
+        <label><!-- Query Rows --></label>
+        <name>Query_Rows__c</name>
+    </fields>
+    <fields>
+        <label><!-- Queueable Jobs --></label>
+        <name>Queueable_Jobs__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOSL Queries --></label>
+        <name>SOSL_Queries__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>Summary__c</name>
+    </fields>
+    <layouts>
+        <layout>Limits Snapshot Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
