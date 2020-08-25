@@ -4481,6 +4481,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Austrian Schilling",
+          "validFor": null,
+          "value": "0060"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Barbados Dollar",
           "validFor": null,
           "value": "0070"
@@ -4491,6 +4498,20 @@
           "label": "St Helena Pound",
           "validFor": null,
           "value": "0075"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Belgian Franc",
+          "validFor": null,
+          "value": "0080"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Namibian Dollar",
+          "validFor": null,
+          "value": "0085"
         },
         {
           "active": true,
@@ -4537,6 +4558,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Dutch Guilder",
+          "validFor": null,
+          "value": "0130"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Eastern Caribbean Dollar",
           "validFor": null,
           "value": "0140"
@@ -4565,9 +4593,37 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Finnish Markka",
+          "validFor": null,
+          "value": "0170"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "French Franc",
+          "validFor": null,
+          "value": "0180"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "CFP Franc",
           "validFor": null,
           "value": "0190"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "German Mark",
+          "validFor": null,
+          "value": "0200"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Greek Drachma",
+          "validFor": null,
+          "value": "0210"
         },
         {
           "active": true,
@@ -4586,9 +4642,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Irish Punt",
+          "validFor": null,
+          "value": "0240"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Israeli Sheqel (new)",
           "validFor": null,
           "value": "0250"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Italian Lira",
+          "validFor": null,
+          "value": "0260"
         },
         {
           "active": true,
@@ -4610,6 +4680,13 @@
           "label": "Kenyan Shilling",
           "validFor": null,
           "value": "0290"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Mexican Peso Old",
+          "validFor": null,
+          "value": "0300"
         },
         {
           "active": true,
@@ -4638,6 +4715,27 @@
           "label": "Norwegian Krone",
           "validFor": null,
           "value": "0330"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Portuguese Escudo",
+          "validFor": null,
+          "value": "0340"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Scottish Pound",
+          "validFor": null,
+          "value": "0350"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Spanish Peseta",
+          "validFor": null,
+          "value": "0360"
         },
         {
           "active": true,
@@ -4824,6 +4922,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Cypriot Pound",
+          "validFor": null,
+          "value": "0610"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Czech Koruna",
           "validFor": null,
           "value": "0620"
@@ -4848,6 +4953,27 @@
           "label": "Netherlands Antillean Guilder",
           "validFor": null,
           "value": "0650"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ecuador Sucre (old)",
+          "validFor": null,
+          "value": "0660"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "El Salvador Colon",
+          "validFor": null,
+          "value": "0670"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Equatorial Guinean Ekule Old",
+          "validFor": null,
+          "value": "0680"
         },
         {
           "active": true,
@@ -4883,6 +5009,13 @@
           "label": "Gibraltar Pound",
           "validFor": null,
           "value": "0730"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Guinea Bisseau Peso",
+          "validFor": null,
+          "value": "0740"
         },
         {
           "active": true,
@@ -4950,6 +5083,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Irish Pound",
+          "validFor": null,
+          "value": "0850"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Jordanian Dinar",
           "validFor": null,
           "value": "0860"
@@ -4999,9 +5139,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Luxembourg Franc",
+          "validFor": null,
+          "value": "0930"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Malagasy Ariary",
           "validFor": null,
           "value": "0940"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Madeiran Escudo",
+          "validFor": null,
+          "value": "0950"
         },
         {
           "active": true,
@@ -5016,6 +5170,13 @@
           "label": "Malaysian Ringgit",
           "validFor": null,
           "value": "0970"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Maltese Lira",
+          "validFor": null,
+          "value": "0990"
         },
         {
           "active": true,
@@ -5104,9 +5265,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Zloty (old)",
+          "validFor": null,
+          "value": "2030"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Qatari Riyal",
           "validFor": null,
           "value": "2040"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Romanian Leu (old)",
+          "validFor": null,
+          "value": "2050"
         },
         {
           "active": true,
@@ -5174,6 +5349,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Soviet Rouble (old)",
+          "validFor": null,
+          "value": "3050"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Sri Lanka Rupee",
           "validFor": null,
           "value": "3060"
@@ -5191,6 +5373,13 @@
           "label": "South Sudanese Pound",
           "validFor": null,
           "value": "3075"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Surinam Guilder (old)",
+          "validFor": null,
+          "value": "3080"
         },
         {
           "active": true,
@@ -5244,6 +5433,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Turkish Lira (old)",
+          "validFor": null,
+          "value": "4050"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "UAE Dirham",
           "validFor": null,
           "value": "4060"
@@ -5258,9 +5454,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Uruguay Peso - Old",
+          "validFor": null,
+          "value": "4080"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Vatu",
           "validFor": null,
           "value": "4090"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bolivar - Old",
+          "validFor": null,
+          "value": "5000"
         },
         {
           "active": true,
@@ -5300,6 +5510,27 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Yugoslavian Dinar",
+          "validFor": null,
+          "value": "5050"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zambian Kwacha",
+          "validFor": null,
+          "value": "5060"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zimbabwe Dollar",
+          "validFor": null,
+          "value": "5070"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Euro",
           "validFor": null,
           "value": "5080"
@@ -5317,6 +5548,20 @@
           "label": "Leone",
           "validFor": null,
           "value": "6000"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Ostmark - Former GDR Mark",
+          "validFor": null,
+          "value": "6010"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Yemenese Dinar",
+          "validFor": null,
+          "value": "6020"
         },
         {
           "active": true,
@@ -5405,9 +5650,30 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "French Guiana Franc",
+          "validFor": null,
+          "value": "7000"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Guadaloupe Franc",
+          "validFor": null,
+          "value": "7100"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Pataca",
           "validFor": null,
           "value": "7200"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Martinique Franc",
+          "validFor": null,
+          "value": "7400"
         },
         {
           "active": true,
@@ -5426,6 +5692,27 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Slovenian Tolar",
+          "validFor": null,
+          "value": "7700"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Latvian Lats",
+          "validFor": null,
+          "value": "7800"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lithuanian Litas",
+          "validFor": null,
+          "value": "7900"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Estonian Kroon",
           "validFor": null,
           "value": "8000"
@@ -5440,6 +5727,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Ukranian Karbovanet - Old",
+          "validFor": null,
+          "value": "8200"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Moldovan Leu",
           "validFor": null,
           "value": "8300"
@@ -5450,6 +5744,13 @@
           "label": "Armenian Dram",
           "validFor": null,
           "value": "8500"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Azerbaijanian Manat  (old)",
+          "validFor": null,
+          "value": "8600"
         },
         {
           "active": true,
@@ -5489,6 +5790,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Somoni",
+          "validFor": null,
+          "value": "9200"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Brazilian Real",
           "validFor": null,
           "value": "9300"
@@ -5496,9 +5804,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Slovak Kruna",
+          "validFor": null,
+          "value": "9400"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Polish New Zloty",
           "validFor": null,
           "value": "9410"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Timoran Escuda (old)",
+          "validFor": null,
+          "value": "9420"
         },
         {
           "active": true,
@@ -8539,7 +8861,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Colombian National Trubutary ID Number",
+          "label": "Colombian National Tributary ID Number",
           "validFor": null,
           "value": "00145"
         },
@@ -9190,7 +9512,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Burkino Faso Registration Number",
+          "label": "Burkina Faso Registration Number",
           "validFor": null,
           "value": "00546"
         },
@@ -9743,7 +10065,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Philippinies Securities & Exchange Commission Number",
+          "label": "Philippines Securities & Exchange Commission Number",
           "validFor": null,
           "value": "00330"
         },
@@ -9771,7 +10093,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Pakistan Securites & Exchange Commission Number",
+          "label": "Pakistan Securities & Exchange Commission Number",
           "validFor": null,
           "value": "00345"
         },
@@ -10812,9 +11134,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "ADP - Andorran Peseta",
+          "validFor": null,
+          "value": "ADP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "AED - UAE Dirham",
           "validFor": null,
           "value": "AED"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "AFA - Afghanistan Afghani",
+          "validFor": null,
+          "value": "AFA"
         },
         {
           "active": true,
@@ -10861,6 +11197,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "ATS - Austrian Schilling",
+          "validFor": null,
+          "value": "ATS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "AUD - Australian Dollar",
           "validFor": null,
           "value": "AUD"
@@ -10871,6 +11214,13 @@
           "label": "AWG - Aruba Florin",
           "validFor": null,
           "value": "AWG"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "AZM - Azerbaijanian Manat",
+          "validFor": null,
+          "value": "AZM"
         },
         {
           "active": true,
@@ -10899,6 +11249,20 @@
           "label": "BDT - Bangladesh Taka",
           "validFor": null,
           "value": "BDT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BEF - Belgian Franc",
+          "validFor": null,
+          "value": "BEF"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "BGL - Lev",
+          "validFor": null,
+          "value": "BGL"
         },
         {
           "active": true,
@@ -10987,6 +11351,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "BYB - Belarusian Ruble",
+          "validFor": null,
+          "value": "BYB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "BYN - Belarusian Ruble",
           "validFor": null,
           "value": "BYN"
@@ -11064,6 +11435,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "CSD - Serbian Dinar",
+          "validFor": null,
+          "value": "CSD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "CUC - Cuban Peso Convertible",
           "validFor": null,
           "value": "CUC"
@@ -11085,9 +11463,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "CYP - Cyprus Pound",
+          "validFor": null,
+          "value": "CYP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "CZK - Czech Koruna",
           "validFor": null,
           "value": "CZK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "DEM - German Mark",
+          "validFor": null,
+          "value": "DEM"
         },
         {
           "active": true,
@@ -11120,6 +11512,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "ECS - Ecuadorian Sucre",
+          "validFor": null,
+          "value": "ECS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "EEK - Estonian Kroon",
           "validFor": null,
           "value": "EEK"
@@ -11141,6 +11540,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "ESP - Spanish Peseta",
+          "validFor": null,
+          "value": "ESP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "ETB - Ethiopian Birr",
           "validFor": null,
           "value": "ETB"
@@ -11151,6 +11557,13 @@
           "label": "EUR - Euro",
           "validFor": null,
           "value": "EUR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "FIM - Finnish Mark",
+          "validFor": null,
+          "value": "FIM"
         },
         {
           "active": true,
@@ -11169,6 +11582,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "FRF - French Franc",
+          "validFor": null,
+          "value": "FRF"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "GBP - British Pound",
           "validFor": null,
           "value": "GBP"
@@ -11179,6 +11599,13 @@
           "label": "GEL - Georgia Lari",
           "validFor": null,
           "value": "GEL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "GHC - Ghanaian Cedi (Old)",
+          "validFor": null,
+          "value": "GHC"
         },
         {
           "active": true,
@@ -11211,9 +11638,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "GRD - Greek Drachma",
+          "validFor": null,
+          "value": "GRD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "GTQ - Guatemala Quetzal",
           "validFor": null,
           "value": "GTQ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "GWP - Guinea-Bissau Peso",
+          "validFor": null,
+          "value": "GWP"
         },
         {
           "active": true,
@@ -11274,6 +11715,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "IEP - Irish Punt",
+          "validFor": null,
+          "value": "IEP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "ILS - Israeli Shekel",
           "validFor": null,
           "value": "ILS"
@@ -11305,6 +11753,13 @@
           "label": "ISK - Iceland Krona",
           "validFor": null,
           "value": "ISK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ITL - Italian Lira",
+          "validFor": null,
+          "value": "ITL"
         },
         {
           "active": true,
@@ -11428,6 +11883,27 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "LTL - Lithuanian Lita",
+          "validFor": null,
+          "value": "LTL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "LUF - Luxembourg Franc",
+          "validFor": null,
+          "value": "LUF"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "LVL - Latvian Lat",
+          "validFor": null,
+          "value": "LVL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "LYD - Libyan Dinar",
           "validFor": null,
           "value": "LYD"
@@ -11452,6 +11928,13 @@
           "label": "MGA - Malagasy Ariary",
           "validFor": null,
           "value": "MGA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "MGF - Malagasy Franc",
+          "validFor": null,
+          "value": "MGF"
         },
         {
           "active": true,
@@ -11498,6 +11981,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "MTL - Maltese Lira",
+          "validFor": null,
+          "value": "MTL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "MUR - Mauritius Rupee",
           "validFor": null,
           "value": "MUR"
@@ -11540,6 +12030,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "MZM - Mozambique Metical",
+          "validFor": null,
+          "value": "MZM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "MZN - Mozambique New Metical",
           "validFor": null,
           "value": "MZN"
@@ -11564,6 +12061,13 @@
           "label": "NIO - Nicaragua Cordoba",
           "validFor": null,
           "value": "NIO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "NLG - Dutch Guilder",
+          "validFor": null,
+          "value": "NLG"
         },
         {
           "active": true,
@@ -11638,6 +12142,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "PTE - Portuguese Escudo",
+          "validFor": null,
+          "value": "PTE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "PYG - Paraguayan Guarani",
           "validFor": null,
           "value": "PYG"
@@ -11648,6 +12159,20 @@
           "label": "QAR - Qatar Rial",
           "validFor": null,
           "value": "QAR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "RMB - Chinese Renminbi",
+          "validFor": null,
+          "value": "RMB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ROL - Romanian Leu",
+          "validFor": null,
+          "value": "ROL"
         },
         {
           "active": true,
@@ -11669,6 +12194,13 @@
           "label": "RUB - Russian Rouble",
           "validFor": null,
           "value": "RUB"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "RUR - Russian Ruble",
+          "validFor": null,
+          "value": "RUR"
         },
         {
           "active": true,
@@ -11701,6 +12233,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "SDD - Sudanese Dinar",
+          "validFor": null,
+          "value": "SDD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "SDG - Sudanese Pound",
           "validFor": null,
           "value": "SDG"
@@ -11729,6 +12268,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "SIT - Slovenian Tolar",
+          "validFor": null,
+          "value": "SIT"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SKK - Slovak Koruna",
+          "validFor": null,
+          "value": "SKK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "SLL - Sierra Leone Leone",
           "validFor": null,
           "value": "SLL"
@@ -11746,6 +12299,13 @@
           "label": "SRD - Surinam Dollar",
           "validFor": null,
           "value": "SRD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SRG - Surinam Guilder",
+          "validFor": null,
+          "value": "SRG"
         },
         {
           "active": true,
@@ -11771,6 +12331,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "SUR -  Soviet Rouble (Old)",
+          "validFor": null,
+          "value": "SUR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SVC - El Salvador Colon",
+          "validFor": null,
+          "value": "SVC"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "SYP - Syrian Pound",
           "validFor": null,
           "value": "SYP"
@@ -11792,9 +12366,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "TJR - Tajik Ruble",
+          "validFor": null,
+          "value": "TJR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "TJS - Tajik Somoni",
           "validFor": null,
           "value": "TJS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TMM - Turkmenistan Manat",
+          "validFor": null,
+          "value": "TMM"
         },
         {
           "active": true,
@@ -11816,6 +12404,20 @@
           "label": "TOP - Tonga Pa'anga",
           "validFor": null,
           "value": "TOP"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TPE - Timor Escudo",
+          "validFor": null,
+          "value": "TPE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TRL - Turkish Lira",
+          "validFor": null,
+          "value": "TRL"
         },
         {
           "active": true,
@@ -11879,6 +12481,13 @@
           "label": "UZS - Uzbekistan Sum",
           "validFor": null,
           "value": "UZS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VEB - Venezuelan Bolivar",
+          "validFor": null,
+          "value": "VEB"
         },
         {
           "active": true,
@@ -11953,6 +12562,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "YUM - Yugoslav Dinar",
+          "validFor": null,
+          "value": "YUM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "ZAR - South African Rand",
           "validFor": null,
           "value": "ZAR"
@@ -11960,9 +12576,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "ZMK - Zambian Kwacha",
+          "validFor": null,
+          "value": "ZMK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "ZMW - Zambian Kwacha (New)",
           "validFor": null,
           "value": "ZMW"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "ZWD - Zimbabwe Dollar",
+          "validFor": null,
+          "value": "ZWD"
         },
         {
           "active": true,
@@ -13308,6 +13938,7 @@
   "retrieveable": true,
   "searchLayoutable": true,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All d&b companies",
@@ -13320,11 +13951,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/DandBCompany/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/DandBCompany/{ID}",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/DandBCompany/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/DandBCompany/describe",
-    "uiNewRecord": "https://na85.salesforce.com/06E/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/06E/e",
     "layouts": "/services/data/v43.0/sobjects/DandBCompany/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/DandBCompany"
   }
