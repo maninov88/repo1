@@ -592,6 +592,7 @@
   "retrieveable": false,
   "searchLayoutable": false,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All tab definitions",
