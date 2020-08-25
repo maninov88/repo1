@@ -14,6 +14,16 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "AttachedContentNote",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentNotes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "CombinedAttachment",
       "deprecatedAndHidden": false,
       "field": "ParentId",
@@ -80,6 +90,16 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "NetworkActivityAudit",
+      "deprecatedAndHidden": false,
+      "field": "ParentEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ParentEntities",
       "restrictedDelete": false
     },
     {
@@ -1343,6 +1363,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All order products",
