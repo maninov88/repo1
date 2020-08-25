@@ -402,16 +402,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Current Generator(s)",
+          "label": "DB Days",
           "validFor": null,
-          "value": "CurrentGenerators__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Delivery/Installation Status",
-          "validFor": null,
-          "value": "DeliveryInstallationStatus__c"
+          "value": "DB_Days__c"
         },
         {
           "active": true,
@@ -419,6 +412,13 @@
           "label": "Description",
           "validFor": null,
           "value": "Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "external id",
+          "validFor": null,
+          "value": "external_id__c"
         },
         {
           "active": true,
@@ -451,13 +451,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Main Competitor(s)",
-          "validFor": null,
-          "value": "MainCompetitors__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Next Step",
           "validFor": null,
           "value": "NextStep"
@@ -479,13 +472,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Order Number",
-          "validFor": null,
-          "value": "OrderNumber__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Owner (Accepted)",
           "validFor": null,
           "value": "ownerAccepted"
@@ -496,6 +482,13 @@
           "label": "Owner (Assignment)",
           "validFor": null,
           "value": "ownerAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Partner Account",
+          "validFor": null,
+          "value": "PartnerAccount"
         },
         {
           "active": true,
@@ -549,9 +542,23 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Tracking Number",
+          "label": "Stalled Opportunity",
           "validFor": null,
-          "value": "TrackingNumber__c"
+          "value": "Stalled_Opportunity__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Synced Quote",
+          "validFor": null,
+          "value": "SyncedQuote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "TimeTest",
+          "validFor": null,
+          "value": "TimeTest__c"
         },
         {
           "active": true,
@@ -717,6 +724,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All opportunity field history",
