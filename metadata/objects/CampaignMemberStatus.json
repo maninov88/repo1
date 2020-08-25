@@ -3,10 +3,10 @@
   "activateable": false,
   "childRelationships": [],
   "compactLayoutable": true,
-  "createable": true,
+  "createable": false,
   "custom": false,
   "customSetting": false,
-  "deletable": true,
+  "deletable": false,
   "deprecatedAndHidden": false,
   "feedEnabled": false,
   "fields": [
@@ -139,7 +139,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -200,7 +200,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -245,7 +245,7 @@
       "sortable": true,
       "type": "string",
       "unique": false,
-      "updateable": true,
+      "updateable": false,
       "writeRequiresMasterRead": false
     },
     {
@@ -259,7 +259,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -304,7 +304,7 @@
       "sortable": true,
       "type": "int",
       "unique": false,
-      "updateable": true,
+      "updateable": false,
       "writeRequiresMasterRead": false
     },
     {
@@ -318,7 +318,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": false,
       "defaultValueFormula": null,
@@ -363,7 +363,7 @@
       "sortable": true,
       "type": "boolean",
       "unique": false,
-      "updateable": true,
+      "updateable": false,
       "writeRequiresMasterRead": false
     },
     {
@@ -377,7 +377,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": true,
+      "createable": false,
       "custom": false,
       "defaultValue": false,
       "defaultValueFormula": null,
@@ -422,7 +422,7 @@
       "sortable": true,
       "type": "boolean",
       "unique": false,
-      "updateable": true,
+      "updateable": false,
       "writeRequiresMasterRead": false
     },
     {
@@ -744,6 +744,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All campaign member statuses",
@@ -752,7 +753,7 @@
   ],
   "triggerable": false,
   "undeletable": false,
-  "updateable": true,
+  "updateable": false,
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/CampaignMemberStatus/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/CampaignMemberStatus/{ID}",
