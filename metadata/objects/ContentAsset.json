@@ -4,6 +4,16 @@
   "childRelationships": [
     {
       "cascadeDelete": false,
+      "childSObject": "AccountBrand",
+      "deprecatedAndHidden": false,
+      "field": "LogoId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
       "childSObject": "ChatterExtension",
       "deprecatedAndHidden": false,
       "field": "IconId",
@@ -971,6 +981,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All asset files",
