@@ -964,7 +964,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Recurs Monthy Nth",
+          "label": "Recurs Monthly Nth",
           "validFor": null,
           "value": "RecursMonthlyNth"
         },
@@ -1444,6 +1444,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All holidays",
