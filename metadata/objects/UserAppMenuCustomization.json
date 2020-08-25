@@ -537,7 +537,7 @@
       "maskType": null,
       "name": "ApplicationId",
       "nameField": false,
-      "namePointing": false,
+      "namePointing": true,
       "nillable": true,
       "permissionable": false,
       "picklistValues": [],
@@ -546,7 +546,8 @@
       "queryByDistance": false,
       "referenceTargetField": null,
       "referenceTo": [
-        "ConnectedApplication"
+        "ConnectedApplication",
+        "Network"
       ],
       "relationshipName": "Application",
       "relationshipOrder": null,
@@ -640,6 +641,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All userappmenucustomizations",
