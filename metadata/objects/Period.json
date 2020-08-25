@@ -11,6 +11,56 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ForecastingAdjustment",
+      "deprecatedAndHidden": false,
+      "field": "PeriodId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ForecastingFact",
+      "deprecatedAndHidden": false,
+      "field": "PeriodId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ForecastingItem",
+      "deprecatedAndHidden": false,
+      "field": "PeriodId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ForecastingOwnerAdjustment",
+      "deprecatedAndHidden": false,
+      "field": "PeriodId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ForecastingQuota",
+      "deprecatedAndHidden": false,
+      "field": "PeriodId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
     }
   ],
   "compactLayoutable": false,
@@ -750,6 +800,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All period",
