@@ -360,6 +360,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "external id",
+          "validFor": null,
+          "value": "external_id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Feed event",
           "validFor": null,
           "value": "feedEvent"
@@ -591,6 +598,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All solution history",
