@@ -2055,6 +2055,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Network"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ServiceProvider"
         },
         {
@@ -2339,6 +2346,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All appmenuitems",
