@@ -6,5 +6,8 @@
     <label>LightningBolt</label>
     <navType>Standard</navType>
     <tabs>standard-LightningBoltHome</tabs>
+    <tabs>Sample_Parent__c</tabs>
+    <tabs>Limits_Snapshot__c</tabs>
+    <tabs>wide_nofragment__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
