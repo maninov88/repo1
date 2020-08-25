@@ -126,7 +126,10 @@
       "queryByDistance": false,
       "referenceTargetField": null,
       "referenceTo": [
+        "NavigationMenuItem",
+        "Network",
         "Organization",
+        "ReputationLevel",
         "Stamp",
         "Topic"
       ],
@@ -403,6 +406,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All custom brand",
