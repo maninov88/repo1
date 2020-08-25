@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>fragment7</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>fragment7s</value>
+    </caseValues>
+    <fields>
+        <label><!-- Formula50 --></label>
+        <name>Formula50__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula51 --></label>
+        <name>Formula51__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula52 --></label>
+        <name>Formula52__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula53 --></label>
+        <name>Formula53__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula54 --></label>
+        <name>Formula54__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula55 --></label>
+        <name>Formula55__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula56 --></label>
+        <name>Formula56__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula57 --></label>
+        <name>Formula57__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula58 --></label>
+        <name>Formula58__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula59 --></label>
+        <name>Formula59__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula60 --></label>
+        <name>Formula60__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula61 --></label>
+        <name>Formula61__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula62 --></label>
+        <name>Formula62__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula63 --></label>
+        <name>Formula63__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula64 --></label>
+        <name>Formula64__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula65 --></label>
+        <name>Formula65__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula66 --></label>
+        <name>Formula66__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula67 --></label>
+        <name>Formula67__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula68 --></label>
+        <name>Formula68__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula69 --></label>
+        <name>Formula69__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula70 --></label>
+        <name>Formula70__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula71 --></label>
+        <name>Formula71__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula72 --></label>
+        <name>Formula72__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula73 --></label>
+        <name>Formula73__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula74 --></label>
+        <name>Formula74__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula75 --></label>
+        <name>Formula75__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula76 --></label>
+        <name>Formula76__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula77 --></label>
+        <name>Formula77__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula78 --></label>
+        <name>Formula78__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula79 --></label>
+        <name>Formula79__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula80 --></label>
+        <name>Formula80__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula81 --></label>
+        <name>Formula81__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula82 --></label>
+        <name>Formula82__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula83 --></label>
+        <name>Formula83__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula84 --></label>
+        <name>Formula84__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula85 --></label>
+        <name>Formula85__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula86 --></label>
+        <name>Formula86__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula87 --></label>
+        <name>Formula87__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula88 --></label>
+        <name>Formula88__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula89 --></label>
+        <name>Formula89__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula90 --></label>
+        <name>Formula90__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula91 --></label>
+        <name>Formula91__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula92 --></label>
+        <name>Formula92__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula93 --></label>
+        <name>Formula93__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula94 --></label>
+        <name>Formula94__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula95 --></label>
+        <name>Formula95__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula96 --></label>
+        <name>Formula96__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula97 --></label>
+        <name>Formula97__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula98 --></label>
+        <name>Formula98__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formula99 --></label>
+        <name>Formula99__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea10 --></label>
+        <name>LongTextArea10__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea11 --></label>
+        <name>LongTextArea11__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea1 --></label>
+        <name>LongTextArea1__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea2 --></label>
+        <name>LongTextArea2__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea3 --></label>
+        <name>LongTextArea3__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea4 --></label>
+        <name>LongTextArea4__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea5 --></label>
+        <name>LongTextArea5__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea6 --></label>
+        <name>LongTextArea6__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea7 --></label>
+        <name>LongTextArea7__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea8 --></label>
+        <name>LongTextArea8__c</name>
+    </fields>
+    <fields>
+        <label><!-- LongTextArea9 --></label>
+        <name>LongTextArea9__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
