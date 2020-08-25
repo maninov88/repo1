@@ -21,6 +21,86 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "LiveChatButton",
+      "deprecatedAndHidden": false,
+      "field": "InviteImageId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "LiveChatButton",
+      "deprecatedAndHidden": false,
+      "field": "OfflineImageId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "LiveChatButton",
+      "deprecatedAndHidden": false,
+      "field": "OnlineImageId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "LiveChatDeployment",
+      "deprecatedAndHidden": false,
+      "field": "BrandingId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "LiveChatDeployment",
+      "deprecatedAndHidden": false,
+      "field": "MobileBrandingId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "VisualizationPlugin",
+      "deprecatedAndHidden": false,
+      "field": "IconId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "VisualizationResource",
+      "deprecatedAndHidden": false,
+      "field": "FileId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "VisualizationType",
+      "deprecatedAndHidden": false,
+      "field": "IconId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": true
     }
   ],
   "compactLayoutable": false,
@@ -837,6 +917,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All static resources",
