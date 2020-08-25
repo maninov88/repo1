@@ -734,28 +734,7 @@
           "defaultValue": false,
           "label": "Account Name",
           "validFor": null,
-          "value": "Field.Account.Name.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Account Name",
-          "validFor": null,
-          "value": "Field.Account.Name"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Account Name",
-          "validFor": null,
           "value": "Field.Contact.AccountId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Account Name",
-          "validFor": null,
-          "value": "Field.Account.Name.end"
         },
         {
           "active": true,
@@ -788,13 +767,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Campaign Tab",
-          "validFor": null,
-          "value": "Tab.Campaign"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Active Case Tab",
           "validFor": null,
           "value": "Tab.Case"
@@ -802,16 +774,65 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active co1 Tab",
+          "label": "Active Channel Program Level Tab",
           "validFor": null,
-          "value": "Tab.co1__c"
+          "value": "Tab.ChannelProgramLevel"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Consumption Schedule Tab",
+          "label": "Active Channel Program Member Tab",
           "validFor": null,
-          "value": "Tab.ConsumptionSchedule"
+          "value": "Tab.ChannelProgramMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Channel Program Tab",
+          "validFor": null,
+          "value": "Tab.ChannelProgram"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Chat Session Tab",
+          "validFor": null,
+          "value": "Tab.LiveAgentSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Chat Transcript Tab",
+          "validFor": null,
+          "value": "Tab.LiveChatTranscript"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Communication Subscription Channel Type Tab",
+          "validFor": null,
+          "value": "Tab.CommSubscriptionChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Communication Subscription Consent Tab",
+          "validFor": null,
+          "value": "Tab.CommSubscriptionConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Communication Subscription Tab",
+          "validFor": null,
+          "value": "Tab.CommSubscription"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Communication Subscription Timing Tab",
+          "validFor": null,
+          "value": "Tab.CommSubscriptionTiming"
         },
         {
           "active": true,
@@ -823,6 +844,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Active Contract Line Item Tab",
+          "validFor": null,
+          "value": "Tab.ContractLineItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Active Contract Tab",
           "validFor": null,
           "value": "Tab.Contract"
@@ -830,16 +858,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active CustomObject1 Tab",
+          "label": "Active Engagement Channel Type Tab",
           "validFor": null,
-          "value": "Tab.CustomObject1__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Active customObject3 Tab",
-          "validFor": null,
-          "value": "Tab.customObject3__c"
+          "value": "Tab.EngagementChannelType"
         },
         {
           "active": true,
@@ -851,6 +872,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Active FAQ Tab",
+          "validFor": null,
+          "value": "Tab.FAQ__kav"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Active Feed Item Tab",
           "validFor": null,
           "value": "Tab.FeedItem"
@@ -858,9 +886,51 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active GRAX : Object Configuration Tab",
+          "label": "Active fragment1_wide Tab",
           "validFor": null,
-          "value": "Tab.grax__GRAXQuery__c"
+          "value": "Tab.fragment1_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active fragment1 Tab",
+          "validFor": null,
+          "value": "Tab.fragment1__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active fragment2_wide Tab",
+          "validFor": null,
+          "value": "Tab.fragment2_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active fragment2 Tab",
+          "validFor": null,
+          "value": "Tab.fragment2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active fragment7_wide Tab",
+          "validFor": null,
+          "value": "Tab.fragment7_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active fragment7 Tab",
+          "validFor": null,
+          "value": "Tab.fragment7__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active fragment8 Tab",
+          "validFor": null,
+          "value": "Tab.fragment8__c"
         },
         {
           "active": true,
@@ -886,6 +956,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Active GRAX Group GDR Tab",
+          "validFor": null,
+          "value": "Tab.grax__GRAX_GroupGDR__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active GRAX Helper Tab",
+          "validFor": null,
+          "value": "Tab.grax__GRAX_Helper__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Active GRAX Schedule Process Tab",
           "validFor": null,
           "value": "Tab.grax__GRAX_Schedule_Process__c"
@@ -896,6 +980,13 @@
           "label": "Active Group Tab",
           "validFor": null,
           "value": "Tab.CollaborationGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active How To Tab",
+          "validFor": null,
+          "value": "Tab.How_To__kav"
         },
         {
           "active": true,
@@ -914,16 +1005,44 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Opportunity Tab",
+          "label": "Active Limits Snapshot Tab",
           "validFor": null,
-          "value": "Tab.Opportunity"
+          "value": "Tab.Limits_Snapshot__c"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Active Order Line Item Tab",
+          "label": "Active Messaging Session Tab",
           "validFor": null,
-          "value": "Tab.Order_Line_Item__c"
+          "value": "Tab.MessagingSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Messaging User Tab",
+          "validFor": null,
+          "value": "Tab.MessagingEndUser"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Object Milestone Tab",
+          "validFor": null,
+          "value": "Tab.EntityMilestone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Opportunity Contact Role Tab",
+          "validFor": null,
+          "value": "Tab.OpportunityContactRole"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Opportunity Tab",
+          "validFor": null,
+          "value": "Tab.Opportunity"
         },
         {
           "active": true,
@@ -935,9 +1054,86 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Active Partner Fund Allocation Tab",
+          "validFor": null,
+          "value": "Tab.PartnerFundAllocation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Fund Claim Tab",
+          "validFor": null,
+          "value": "Tab.PartnerFundClaim"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Fund Request Tab",
+          "validFor": null,
+          "value": "Tab.PartnerFundRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Partner Marketing Budget Tab",
+          "validFor": null,
+          "value": "Tab.PartnerMarketingBudget"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Party Consent Tab",
+          "validFor": null,
+          "value": "Tab.PartyConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Active Product Tab",
           "validFor": null,
           "value": "Tab.Product2"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Quote Tab",
+          "validFor": null,
+          "value": "Tab.Quote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Sample Child Tab",
+          "validFor": null,
+          "value": "Tab.Sample_Child__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Sample Parent Tab",
+          "validFor": null,
+          "value": "Tab.Sample_Parent__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Service Contract Tab",
+          "validFor": null,
+          "value": "Tab.ServiceContract"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Social Post Tab",
+          "validFor": null,
+          "value": "Tab.SocialPost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active SOS Session Tab",
+          "validFor": null,
+          "value": "Tab.SOSSession"
         },
         {
           "active": true,
@@ -956,9 +1152,30 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Add Member Action",
+          "label": "Active Voice Call Tab",
           "validFor": null,
-          "value": "QuickAction.CollaborationGroup.NewGroupMember"
+          "value": "Tab.VoiceCall"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active wide_nofragment Tab",
+          "validFor": null,
+          "value": "Tab.wide_nofragment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work Order Line Item Tab",
+          "validFor": null,
+          "value": "Tab.WorkOrderLineItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Active Work Order Tab",
+          "validFor": null,
+          "value": "Tab.WorkOrder"
         },
         {
           "active": true,
@@ -1005,65 +1222,30 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Attachments",
+          "label": "Body",
           "validFor": null,
-          "value": "Field.OutgoingEmail.ContentDocumentIds.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Attachments",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.AttachmentIds.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "BCC",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.BccAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "BCC",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.BccAddress.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "BCC",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.BccAddress.end"
+          "value": "Field.CaseComment.CommentBody"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Body",
           "validFor": null,
-          "value": "Field.Note.Body.begin"
+          "value": "Field.CaseComment.CommentBody.cursor"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Body",
           "validFor": null,
-          "value": "Field.Note.Body.end"
+          "value": "Field.CaseComment.CommentBody.end"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": "Body",
           "validFor": null,
-          "value": "Field.Note.Body.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Body",
-          "validFor": null,
-          "value": "Field.Note.Body"
+          "value": "Field.CaseComment.CommentBody.begin"
         },
         {
           "active": true,
@@ -1071,27 +1253,6 @@
           "label": "Case Owner",
           "validFor": null,
           "value": "Field.Case.OwnerId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "CC",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.CcAddress.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "CC",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.CcAddress.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "CC",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.CcAddress"
         },
         {
           "active": true,
@@ -1173,6 +1334,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Community Action",
+          "validFor": null,
+          "value": "QuickAction.Case.CaseComment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Company",
           "validFor": null,
           "value": "Field.Lead.Company.begin"
@@ -1190,13 +1358,6 @@
           "label": "Company",
           "validFor": null,
           "value": "Field.Lead.Company"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Contact Name",
-          "validFor": null,
-          "value": "Field.Case.ContactId"
         },
         {
           "active": true,
@@ -1299,20 +1460,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Email Action",
-          "validFor": null,
-          "value": "QuickAction.SendEmail"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email Template",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.EmailTemplateId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "End",
           "validFor": null,
           "value": "Field.Event.EndDateTime"
@@ -1362,13 +1509,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "From",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.ValidatedFromAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Group",
           "validFor": null,
           "value": "Field.CollaborationGroupRecord.CollaborationGroupId"
@@ -1386,41 +1526,6 @@
           "label": "Group Member Role",
           "validFor": null,
           "value": "Field.CollaborationGroupMember.CollaborationRole"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "HTML Body",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.HtmlBody.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "HTML Body",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.HtmlBody.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "HTML Body",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.HtmlBody.cursor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "HTML Body",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.HtmlBody"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Industry",
-          "validFor": null,
-          "value": "Field.Account.Industry"
         },
         {
           "active": true,
@@ -1495,16 +1600,72 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Log a Call Action",
+          "label": "Member",
           "validFor": null,
-          "value": "QuickAction.Case.LogACall"
+          "value": "Field.CollaborationGroupMember.MemberId"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Member",
+          "label": "Message",
           "validFor": null,
-          "value": "Field.CollaborationGroupMember.MemberId"
+          "value": "Field.SocialPost.Content.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Message",
+          "validFor": null,
+          "value": "Field.SocialPost.Content"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Message",
+          "validFor": null,
+          "value": "Field.SocialPost.Content.cursor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Message",
+          "validFor": null,
+          "value": "Field.SocialPost.Content.begin"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Message Type",
+          "validFor": null,
+          "value": "Field.SocialPost.MessageType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging Consent Status",
+          "validFor": null,
+          "value": "Field.MessagingEndUser.MessagingConsentStatus"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging User Name",
+          "validFor": null,
+          "value": "Field.MessagingEndUser.Name.end"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging User Name",
+          "validFor": null,
+          "value": "Field.MessagingEndUser.Name"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging User Name",
+          "validFor": null,
+          "value": "Field.MessagingEndUser.Name.begin"
         },
         {
           "active": true,
@@ -1544,27 +1705,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "New Account Action",
-          "validFor": null,
-          "value": "QuickAction.NewAccount"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "New Case Action",
-          "validFor": null,
-          "value": "QuickAction.NewCase"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "New Child Case Action",
-          "validFor": null,
-          "value": "QuickAction.Case.NewChildCase"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "New Contact Action",
           "validFor": null,
           "value": "QuickAction.NewContact"
@@ -1586,16 +1726,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "New Lead Action",
+          "label": "New Group Member Action",
           "validFor": null,
-          "value": "QuickAction.NewLead"
+          "value": "QuickAction.CollaborationGroup.NewGroupMember"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "New Note Action",
+          "label": "New Lead Action",
           "validFor": null,
-          "value": "QuickAction.NewNote"
+          "value": "QuickAction.NewLead"
         },
         {
           "active": true,
@@ -1610,27 +1750,6 @@
           "label": "New Task Action",
           "validFor": null,
           "value": "QuickAction.NewTask"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Next Step",
-          "validFor": null,
-          "value": "Field.Opportunity.NextStep"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Next Step",
-          "validFor": null,
-          "value": "Field.Opportunity.NextStep.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Next Step",
-          "validFor": null,
-          "value": "Field.Opportunity.NextStep.begin"
         },
         {
           "active": true,
@@ -1656,9 +1775,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Parent Case",
+          "label": "Owner",
           "validFor": null,
-          "value": "Field.Case.ParentId"
+          "value": "Field.LiveChatTranscript.OwnerId"
         },
         {
           "active": true,
@@ -1666,13 +1785,6 @@
           "label": "Phone",
           "validFor": null,
           "value": "Field.Contact.Phone"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Phone",
-          "validFor": null,
-          "value": "Field.Account.Phone"
         },
         {
           "active": true,
@@ -1698,23 +1810,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Private",
-          "validFor": null,
-          "value": "Field.Note.IsPrivate"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Record",
           "validFor": null,
           "value": "Field.CollaborationGroupRecord.RecordId"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Related To",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.RelatedToId"
         },
         {
           "active": true,
@@ -1733,6 +1831,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Request Time",
+          "validFor": null,
+          "value": "Field.LiveChatTranscript.RequestTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Salutation",
           "validFor": null,
           "value": "Field.Lead.Salutation"
@@ -1743,6 +1848,27 @@
           "label": "Salutation",
           "validFor": null,
           "value": "Field.Contact.Salutation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Social Action",
+          "validFor": null,
+          "value": "QuickAction.Lead.SocialPublisher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Social Action",
+          "validFor": null,
+          "value": "QuickAction.SocialPost.SocialPublisher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Social Action",
+          "validFor": null,
+          "value": "QuickAction.Case.SocialPublisher"
         },
         {
           "active": true,
@@ -1770,21 +1896,14 @@
           "defaultValue": false,
           "label": "Status",
           "validFor": null,
+          "value": "Field.LiveChatTranscript.Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
           "value": "Field.Task.Status"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.Subject"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.Subject.begin"
         },
         {
           "active": true,
@@ -1806,13 +1925,6 @@
           "label": "Subject",
           "validFor": null,
           "value": "Field.Case.Subject.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Subject",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.Subject.end"
         },
         {
           "active": true,
@@ -1854,20 +1966,6 @@
           "defaultValue": false,
           "label": "Title",
           "validFor": null,
-          "value": "Field.Note.Title.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Title",
-          "validFor": null,
-          "value": "Field.Note.Title"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Title",
-          "validFor": null,
           "value": "Field.Contact.Title.begin"
         },
         {
@@ -1887,44 +1985,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Title",
-          "validFor": null,
-          "value": "Field.Note.Title.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "To",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.ToAddress.end"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "To",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.ToAddress.begin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "To",
-          "validFor": null,
-          "value": "Field.OutgoingEmail.ToAddress"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Type",
-          "validFor": null,
-          "value": "Field.Account.Type"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Update Case Action",
           "validFor": null,
           "value": "QuickAction.Case._LightningUpdateCase"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Chat Transcript Action",
+          "validFor": null,
+          "value": "QuickAction.LiveChatTranscript._LightningUpdateLiveChatTranscript"
         },
         {
           "active": true,
@@ -1936,9 +2006,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Website",
+          "label": "Update Messaging User Action",
           "validFor": null,
-          "value": "Field.Account.Website"
+          "value": "QuickAction.MessagingEndUser._UpdateMessagingEndUser"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Update Voice Call Action",
+          "validFor": null,
+          "value": "QuickAction.VoiceCall._LightningCallNotes"
         }
       ],
       "polymorphicForeignKey": false,
@@ -2169,6 +2246,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All macro instructions",
