@@ -127,13 +127,6 @@
           "label": "Domain Name System (DNS)",
           "validFor": null,
           "value": "DNS"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Facebook Page",
-          "validFor": null,
-          "value": "FacebookPage"
         }
       ],
       "polymorphicForeignKey": false,
@@ -650,6 +643,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All domains",
