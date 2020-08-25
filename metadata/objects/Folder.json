@@ -545,6 +545,13 @@
           "label": "Email Template",
           "validFor": null,
           "value": "EmailTemplate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sales Cadence",
+          "validFor": null,
+          "value": "ActionCadence"
         }
       ],
       "polymorphicForeignKey": false,
@@ -943,6 +950,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All folders",
