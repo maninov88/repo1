@@ -14,6 +14,16 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "AttachedContentNote",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentNotes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "Attachment",
       "deprecatedAndHidden": false,
       "field": "ParentId",
@@ -114,6 +124,26 @@
     },
     {
       "cascadeDelete": false,
+      "childSObject": "NetworkActivityAudit",
+      "deprecatedAndHidden": false,
+      "field": "ParentEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ParentEntities",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "NetworkUserHistoryRecent",
+      "deprecatedAndHidden": false,
+      "field": "RecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "NetworkUserHistoryRecentToRecord",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
       "childSObject": "Task",
       "deprecatedAndHidden": false,
       "field": "RecurrenceActivityId",
@@ -140,6 +170,41 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": "Feeds",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "TaskRelation",
+      "deprecatedAndHidden": false,
+      "field": "TaskId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "TaskRelations",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskRelationChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "TaskId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "TaskWhoRelation",
+      "deprecatedAndHidden": false,
+      "field": "TaskId",
+      "junctionIdListNames": [
+        "TaskWhoIds"
+      ],
+      "junctionReferenceTo": [
+        "Contact",
+        "Lead"
+      ],
+      "relationshipName": "TaskWhoRelations",
       "restrictedDelete": false
     },
     {
@@ -333,15 +398,30 @@
         "AssetRelationship",
         "Campaign",
         "Case",
+        "ChannelProgram",
+        "ChannelProgramLevel",
         "ContactRequest",
         "Contract",
+        "ContractLineItem",
+        "Entitlement",
         "ListEmail",
+        "LiveAgentSession",
+        "LiveChatTranscript",
         "Opportunity",
         "Order",
-        "Order_Line_Item__c",
+        "PartnerFundAllocation",
+        "PartnerFundClaim",
+        "PartnerFundRequest",
+        "PartnerMarketingBudget",
         "Product2",
+        "Quote",
+        "SOSSession",
+        "Sample_Child__c",
+        "Sample_Parent__c",
+        "ServiceContract",
         "Solution",
-        "co1__c"
+        "WorkOrder",
+        "WorkOrderLineItem"
       ],
       "relationshipName": "What",
       "relationshipOrder": null,
@@ -354,6 +434,124 @@
       "type": "reference",
       "unique": false,
       "updateable": true,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 0,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": false,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": false,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 9,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Relation Count",
+      "length": 0,
+      "mask": null,
+      "maskType": null,
+      "name": "WhoCount",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": true,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:int",
+      "sortable": true,
+      "type": "int",
+      "unique": false,
+      "updateable": false,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 0,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": false,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": false,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 9,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Related To Count",
+      "length": 0,
+      "mask": null,
+      "maskType": null,
+      "name": "WhatCount",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": true,
+      "permissionable": false,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:int",
+      "sortable": true,
+      "type": "int",
+      "unique": false,
+      "updateable": false,
       "writeRequiresMasterRead": false
     },
     {
@@ -403,13 +601,6 @@
           "label": "Call",
           "validFor": null,
           "value": "Call"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Email",
-          "validFor": null,
-          "value": "Email"
         },
         {
           "active": true,
@@ -861,6 +1052,87 @@
       "soapType": "xsd:string",
       "sortable": false,
       "type": "textarea",
+      "unique": false,
+      "updateable": true,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 120,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": true,
+      "custom": false,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": false,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "Type",
+      "length": 40,
+      "mask": null,
+      "maskType": null,
+      "name": "Type",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": true,
+      "permissionable": true,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Call",
+          "validFor": null,
+          "value": "Call"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Meeting",
+          "validFor": null,
+          "value": "Meeting"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Other",
+          "validFor": null,
+          "value": "Other"
+        }
+      ],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:string",
+      "sortable": true,
+      "type": "picklist",
       "unique": false,
       "updateable": true,
       "writeRequiresMasterRead": false
@@ -2067,30 +2339,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+13:45) Chatham Daylight Time (Pacific/Chatham)",
-          "validFor": null,
-          "value": "Pacific/Chatham"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+13:00) New Zealand Daylight Time (Pacific/Auckland)",
-          "validFor": null,
-          "value": "Pacific/Auckland"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "(GMT+13:00) Phoenix Islands Time (Pacific/Enderbury)",
           "validFor": null,
           "value": "Pacific/Enderbury"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+13:00) Fiji Summer Time (Pacific/Fiji)",
-          "validFor": null,
-          "value": "Pacific/Fiji"
         },
         {
           "active": true,
@@ -2102,6 +2353,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "(GMT+12:45) Chatham Standard Time (Pacific/Chatham)",
+          "validFor": null,
+          "value": "Pacific/Chatham"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "(GMT+12:00) Petropavlovsk-Kamchatski Standard Time (Asia/Kamchatka)",
           "validFor": null,
           "value": "Asia/Kamchatka"
@@ -2109,23 +2367,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+11:00) Pacific/Norfolk",
+          "label": "(GMT+12:00) New Zealand Standard Time (Pacific/Auckland)",
           "validFor": null,
-          "value": "Pacific/Norfolk"
+          "value": "Pacific/Auckland"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+11:00) Lord Howe Daylight Time (Australia/Lord_Howe)",
+          "label": "(GMT+12:00) Fiji Standard Time (Pacific/Fiji)",
           "validFor": null,
-          "value": "Australia/Lord_Howe"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+11:00) Australian Eastern Daylight Time (Australia/Sydney)",
-          "validFor": null,
-          "value": "Australia/Sydney"
+          "value": "Pacific/Fiji"
         },
         {
           "active": true,
@@ -2137,9 +2388,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+10:30) Australian Central Daylight Time (Australia/Adelaide)",
+          "label": "(GMT+11:00) Norfolk Island Time (Pacific/Norfolk)",
           "validFor": null,
-          "value": "Australia/Adelaide"
+          "value": "Pacific/Norfolk"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+10:30) Lord Howe Standard Time (Australia/Lord_Howe)",
+          "validFor": null,
+          "value": "Australia/Lord_Howe"
         },
         {
           "active": true,
@@ -2147,6 +2405,20 @@
           "label": "(GMT+10:00) Australian Eastern Standard Time (Australia/Brisbane)",
           "validFor": null,
           "value": "Australia/Brisbane"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+10:00) Australian Eastern Standard Time (Australia/Sydney)",
+          "validFor": null,
+          "value": "Australia/Sydney"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+09:30) Australian Central Standard Time (Australia/Adelaide)",
+          "validFor": null,
+          "value": "Australia/Adelaide"
         },
         {
           "active": true,
@@ -2305,6 +2577,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "(GMT+04:30) Iran Daylight Time (Asia/Tehran)",
+          "validFor": null,
+          "value": "Asia/Tehran"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "(GMT+04:00) Azerbaijan Standard Time (Asia/Baku)",
           "validFor": null,
           "value": "Asia/Baku"
@@ -2333,13 +2612,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+03:30) Iran Standard Time (Asia/Tehran)",
-          "validFor": null,
-          "value": "Asia/Tehran"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "(GMT+03:00) East Africa Time (Africa/Nairobi)",
           "validFor": null,
           "value": "Africa/Nairobi"
@@ -2350,6 +2622,20 @@
           "label": "(GMT+03:00) Arabian Standard Time (Asia/Baghdad)",
           "validFor": null,
           "value": "Asia/Baghdad"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:00) Eastern European Summer Time (Asia/Beirut)",
+          "validFor": null,
+          "value": "Asia/Beirut"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:00) Israel Daylight Time (Asia/Jerusalem)",
+          "validFor": null,
+          "value": "Asia/Jerusalem"
         },
         {
           "active": true,
@@ -2368,7 +2654,28 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+03:00) Europe/Istanbul",
+          "label": "(GMT+03:00) Eastern European Summer Time (Europe/Athens)",
+          "validFor": null,
+          "value": "Europe/Athens"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:00) Eastern European Summer Time (Europe/Bucharest)",
+          "validFor": null,
+          "value": "Europe/Bucharest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:00) Eastern European Summer Time (Europe/Helsinki)",
+          "validFor": null,
+          "value": "Europe/Helsinki"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:00) Eastern European Standard Time (Europe/Istanbul)",
           "validFor": null,
           "value": "Europe/Istanbul"
         },
@@ -2403,37 +2710,44 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+02:00) Eastern European Standard Time (Asia/Beirut)",
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Amsterdam)",
           "validFor": null,
-          "value": "Asia/Beirut"
+          "value": "Europe/Amsterdam"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+02:00) Israel Standard Time (Asia/Jerusalem)",
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Berlin)",
           "validFor": null,
-          "value": "Asia/Jerusalem"
+          "value": "Europe/Berlin"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+02:00) Eastern European Standard Time (Europe/Athens)",
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Brussels)",
           "validFor": null,
-          "value": "Europe/Athens"
+          "value": "Europe/Brussels"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+02:00) Eastern European Standard Time (Europe/Bucharest)",
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Paris)",
           "validFor": null,
-          "value": "Europe/Bucharest"
+          "value": "Europe/Paris"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+02:00) Eastern European Standard Time (Europe/Helsinki)",
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Prague)",
           "validFor": null,
-          "value": "Europe/Helsinki"
+          "value": "Europe/Prague"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Rome)",
+          "validFor": null,
+          "value": "Europe/Rome"
         },
         {
           "active": true,
@@ -2445,72 +2759,44 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+01:00) Western European Standard Time (Africa/Casablanca)",
+          "label": "(GMT+01:00) Western European Summer Time (Africa/Casablanca)",
           "validFor": null,
           "value": "Africa/Casablanca"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Amsterdam)",
-          "validFor": null,
-          "value": "Europe/Amsterdam"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Berlin)",
-          "validFor": null,
-          "value": "Europe/Berlin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Brussels)",
-          "validFor": null,
-          "value": "Europe/Brussels"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Paris)",
-          "validFor": null,
-          "value": "Europe/Paris"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Prague)",
-          "validFor": null,
-          "value": "Europe/Prague"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Rome)",
-          "validFor": null,
-          "value": "Europe/Rome"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+00:00) Irish Standard Time (Europe/Dublin)",
+          "label": "(GMT+01:00) Irish Standard Time (Europe/Dublin)",
           "validFor": null,
           "value": "Europe/Dublin"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+00:00) Western European Standard Time (Europe/Lisbon)",
+          "label": "(GMT+01:00) Western European Summer Time (Europe/Lisbon)",
           "validFor": null,
           "value": "Europe/Lisbon"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+00:00) Greenwich Mean Time (Europe/London)",
+          "label": "(GMT+01:00) British Summer Time (Europe/London)",
           "validFor": null,
           "value": "Europe/London"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+00:00) East Greenland Summer Time (America/Scoresbysund)",
+          "validFor": null,
+          "value": "America/Scoresbysund"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+00:00) Azores Summer Time (Atlantic/Azores)",
+          "validFor": null,
+          "value": "Atlantic/Azores"
         },
         {
           "active": true,
@@ -2518,20 +2804,6 @@
           "label": "(GMT+00:00) Greenwich Mean Time (GMT)",
           "validFor": null,
           "value": "GMT"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT-01:00) East Greenland Standard Time (America/Scoresbysund)",
-          "validFor": null,
-          "value": "America/Scoresbysund"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT-01:00) Azores Standard Time (Atlantic/Azores)",
-          "validFor": null,
-          "value": "Atlantic/Azores"
         },
         {
           "active": true,
@@ -2550,6 +2822,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "(GMT-02:30) Newfoundland Daylight Time (America/St_Johns)",
+          "validFor": null,
+          "value": "America/St_Johns"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "(GMT-03:00) Argentina Standard Time (America/Argentina/Buenos_Aires)",
           "validFor": null,
           "value": "America/Argentina/Buenos_Aires"
@@ -2557,9 +2836,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-03:00) Chile Summer Time (America/Santiago)",
+          "label": "(GMT-03:00) Atlantic Daylight Time (America/Halifax)",
           "validFor": null,
-          "value": "America/Santiago"
+          "value": "America/Halifax"
         },
         {
           "active": true,
@@ -2571,9 +2850,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-03:30) Newfoundland Standard Time (America/St_Johns)",
+          "label": "(GMT-03:00) Atlantic Daylight Time (Atlantic/Bermuda)",
           "validFor": null,
-          "value": "America/St_Johns"
+          "value": "Atlantic/Bermuda"
         },
         {
           "active": true,
@@ -2585,9 +2864,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-04:00) Atlantic Standard Time (America/Halifax)",
+          "label": "(GMT-04:00) Eastern Daylight Time (America/Indiana/Indianapolis)",
           "validFor": null,
-          "value": "America/Halifax"
+          "value": "America/Indiana/Indianapolis"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT-04:00) Eastern Daylight Time (America/New_York)",
+          "validFor": null,
+          "value": "America/New_York"
         },
         {
           "active": true,
@@ -2599,9 +2885,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-04:00) Atlantic Standard Time (Atlantic/Bermuda)",
+          "label": "(GMT-04:00) Chile Standard Time (America/Santiago)",
           "validFor": null,
-          "value": "Atlantic/Bermuda"
+          "value": "America/Santiago"
         },
         {
           "active": true,
@@ -2613,9 +2899,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-05:00) Eastern Standard Time (America/Indiana/Indianapolis)",
+          "label": "(GMT-05:00) Central Daylight Time (America/Chicago)",
           "validFor": null,
-          "value": "America/Indiana/Indianapolis"
+          "value": "America/Chicago"
         },
         {
           "active": true,
@@ -2627,9 +2913,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-05:00) Eastern Standard Time (America/New_York)",
+          "label": "(GMT-05:00) Central Daylight Time (America/Mexico_City)",
           "validFor": null,
-          "value": "America/New_York"
+          "value": "America/Mexico_City"
         },
         {
           "active": true,
@@ -2641,9 +2927,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-06:00) Central Standard Time (America/Chicago)",
+          "label": "(GMT-06:00) Mountain Daylight Time (America/Denver)",
           "validFor": null,
-          "value": "America/Chicago"
+          "value": "America/Denver"
         },
         {
           "active": true,
@@ -2655,23 +2941,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-06:00) Central Standard Time (America/Mexico_City)",
-          "validFor": null,
-          "value": "America/Mexico_City"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT-07:00) Mountain Standard Time (America/Denver)",
-          "validFor": null,
-          "value": "America/Denver"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT-07:00) Mexican Pacific Standard Time (America/Mazatlan)",
+          "label": "(GMT-06:00) Mexican Pacific Daylight Time (America/Mazatlan)",
           "validFor": null,
           "value": "America/Mazatlan"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)",
+          "validFor": null,
+          "value": "America/Los_Angeles"
         },
         {
           "active": true,
@@ -2683,16 +2962,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-08:00) Pacific Standard Time (America/Los_Angeles)",
+          "label": "(GMT-07:00) Pacific Daylight Time (America/Tijuana)",
           "validFor": null,
-          "value": "America/Los_Angeles"
+          "value": "America/Tijuana"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-08:00) Pacific Standard Time (America/Tijuana)",
+          "label": "(GMT-08:00) Alaska Daylight Time (America/Anchorage)",
           "validFor": null,
-          "value": "America/Tijuana"
+          "value": "America/Anchorage"
         },
         {
           "active": true,
@@ -2704,9 +2983,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-09:00) Alaska Standard Time (America/Anchorage)",
+          "label": "(GMT-09:00) Hawaii-Aleutian Daylight Time (America/Adak)",
           "validFor": null,
-          "value": "America/Anchorage"
+          "value": "America/Adak"
         },
         {
           "active": true,
@@ -2721,13 +3000,6 @@
           "label": "(GMT-09:30) Marquesas Time (Pacific/Marquesas)",
           "validFor": null,
           "value": "Pacific/Marquesas"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT-10:00) Hawaii-Aleutian Standard Time (America/Adak)",
-          "validFor": null,
-          "value": "America/Adak"
         },
         {
           "active": true,
@@ -2834,7 +3106,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Recurs Monthy Nth",
+          "label": "Recurs Monthly Nth",
           "validFor": null,
           "value": "RecursMonthlyNth"
         },
@@ -3469,6 +3741,124 @@
       "unique": false,
       "updateable": false,
       "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 0,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": true,
+      "custom": true,
+      "defaultValue": null,
+      "defaultValueFormula": "0",
+      "defaultedOnCreate": true,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": false,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "DB Days",
+      "length": 0,
+      "mask": null,
+      "maskType": null,
+      "name": "DB_Days__c",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": true,
+      "permissionable": true,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 5,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:double",
+      "sortable": true,
+      "type": "double",
+      "unique": false,
+      "updateable": true,
+      "writeRequiresMasterRead": false
+    },
+    {
+      "aggregatable": true,
+      "aiPredictionField": false,
+      "autoNumber": false,
+      "byteLength": 765,
+      "calculated": false,
+      "calculatedFormula": null,
+      "cascadeDelete": false,
+      "caseSensitive": false,
+      "compoundFieldName": null,
+      "controllerName": null,
+      "createable": true,
+      "custom": true,
+      "defaultValue": null,
+      "defaultValueFormula": null,
+      "defaultedOnCreate": false,
+      "dependentPicklist": false,
+      "deprecatedAndHidden": false,
+      "digits": 0,
+      "displayLocationInDecimal": false,
+      "encrypted": false,
+      "externalId": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "filteredLookupInfo": null,
+      "formulaTreatNullNumberAsZero": false,
+      "groupable": true,
+      "highScaleNumber": false,
+      "htmlFormatted": false,
+      "idLookup": false,
+      "inlineHelpText": null,
+      "label": "external id",
+      "length": 255,
+      "mask": null,
+      "maskType": null,
+      "name": "external_id__c",
+      "nameField": false,
+      "namePointing": false,
+      "nillable": true,
+      "permissionable": true,
+      "picklistValues": [],
+      "polymorphicForeignKey": false,
+      "precision": 0,
+      "queryByDistance": false,
+      "referenceTargetField": null,
+      "referenceTo": [],
+      "relationshipName": null,
+      "relationshipOrder": null,
+      "restrictedDelete": false,
+      "restrictedPicklist": false,
+      "scale": 0,
+      "searchPrefilterable": false,
+      "soapType": "xsd:string",
+      "sortable": true,
+      "type": "string",
+      "unique": true,
+      "updateable": true,
+      "writeRequiresMasterRead": false
     }
   ],
   "hasSubtypes": false,
@@ -3503,6 +3893,7 @@
   "retrieveable": true,
   "searchLayoutable": true,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "My delegated tasks",
@@ -3517,6 +3908,10 @@
       "name": "mine"
     },
     {
+      "label": "Queue owned tasks",
+      "name": "queue_owned"
+    },
+    {
       "label": "My team's tasks",
       "name": "team"
     }
@@ -3527,11 +3922,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/Task/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/Task/{ID}",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/Task/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/Task/describe",
-    "uiNewRecord": "https://na85.salesforce.com/00T/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/00T/e",
     "quickActions": "/services/data/v43.0/sobjects/Task/quickActions",
     "layouts": "/services/data/v43.0/sobjects/Task/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/Task"
