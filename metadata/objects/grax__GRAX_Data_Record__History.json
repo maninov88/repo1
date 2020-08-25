@@ -360,6 +360,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Completed_Time",
+          "validFor": null,
+          "value": "grax__Completed_Time__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Created.",
           "validFor": null,
           "value": "created"
@@ -391,6 +398,13 @@
           "label": "GRAX Archive Process",
           "validFor": null,
           "value": "grax__GRAX_Archive_Process__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "GRAX Group GDR",
+          "validFor": null,
+          "value": "grax__GRAX_Group_GDR__c"
         },
         {
           "active": true,
@@ -458,9 +472,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Processing Start Time",
+          "validFor": null,
+          "value": "grax__Processing_Start_Time__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Process Object Index",
           "validFor": null,
           "value": "grax__Process_Object_Index__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Queued_Start_Time",
+          "validFor": null,
+          "value": "grax__Queued_Start_Time__c"
         },
         {
           "active": true,
@@ -661,6 +689,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All history: grax data record",
