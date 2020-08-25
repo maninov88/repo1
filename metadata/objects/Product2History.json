@@ -383,6 +383,13 @@
           "defaultValue": false,
           "label": "External ID",
           "validFor": null,
+          "value": "External_ID__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "External ID",
+          "validFor": null,
           "value": "ExternalId"
         },
         {
@@ -626,6 +633,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All product history",
