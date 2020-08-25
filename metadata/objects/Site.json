@@ -14,6 +14,16 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "AttachedContentNote",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentNotes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "CombinedAttachment",
       "deprecatedAndHidden": false,
       "field": "ParentId",
@@ -80,6 +90,36 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "LiveChatButton",
+      "deprecatedAndHidden": false,
+      "field": "SiteId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "LiveChatDeployment",
+      "deprecatedAndHidden": false,
+      "field": "SiteId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "NetworkActivityAudit",
+      "deprecatedAndHidden": false,
+      "field": "ParentEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ParentEntities",
       "restrictedDelete": false
     },
     {
@@ -1545,9 +1585,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "User",
+          "label": "Community",
           "validFor": null,
-          "value": "User"
+          "value": "ChatterNetwork"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Site.com Community",
+          "validFor": null,
+          "value": "ChatterNetworkPicasso"
         }
       ],
       "polymorphicForeignKey": false,
@@ -2270,6 +2317,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All sites",
