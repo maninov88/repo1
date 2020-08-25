@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sample Child</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sample Children</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Sample Children --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Checkbox_15 --></label>
+        <name>Checkbox_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox_37 --></label>
+        <name>Checkbox_37__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox_59 --></label>
+        <name>Checkbox_59__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checkbox_95 --></label>
+        <name>Checkbox_95__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_25 --></label>
+        <name>Currency_25__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_30 --></label>
+        <name>Currency_30__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_36 --></label>
+        <name>Currency_36__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_61 --></label>
+        <name>Currency_61__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_6 --></label>
+        <name>Currency_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_72 --></label>
+        <name>Currency_72__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_74 --></label>
+        <name>Currency_74__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_77 --></label>
+        <name>Currency_77__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currency_91 --></label>
+        <name>Currency_91__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime_14 --></label>
+        <name>DateTime_14__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime_43 --></label>
+        <name>DateTime_43__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime_56 --></label>
+        <name>DateTime_56__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime_58 --></label>
+        <name>DateTime_58__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime_60 --></label>
+        <name>DateTime_60__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime_63 --></label>
+        <name>DateTime_63__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime_64 --></label>
+        <name>DateTime_64__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime_69 --></label>
+        <name>DateTime_69__c</name>
+    </fields>
+    <fields>
+        <label><!-- DateTime_98 --></label>
+        <name>DateTime_98__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date_1 --></label>
+        <name>Date_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date_21 --></label>
+        <name>Date_21__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date_31 --></label>
+        <name>Date_31__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date_57 --></label>
+        <name>Date_57__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date_68 --></label>
+        <name>Date_68__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date_79 --></label>
+        <name>Date_79__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date_7 --></label>
+        <name>Date_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date_84 --></label>
+        <name>Date_84__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date_94 --></label>
+        <name>Date_94__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email_23 --></label>
+        <name>Email_23__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email_26 --></label>
+        <name>Email_26__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email_32 --></label>
+        <name>Email_32__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email_85 --></label>
+        <name>Email_85__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email_93 --></label>
+        <name>Email_93__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email_9 --></label>
+        <name>Email_9__c</name>
+    </fields>
+    <fields>
+        <label><!-- MultiSelect_19 --></label>
+        <name>MultiSelect_19__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MultiSelect_22 --></label>
+        <name>MultiSelect_22__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MultiSelect_27 --></label>
+        <name>MultiSelect_27__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MultiSelect_35 --></label>
+        <name>MultiSelect_35__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MultiSelect_40 --></label>
+        <name>MultiSelect_40__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MultiSelect_51 --></label>
+        <name>MultiSelect_51__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MultiSelect_54 --></label>
+        <name>MultiSelect_54__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MultiSelect_81 --></label>
+        <name>MultiSelect_81__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MultiSelect_88 --></label>
+        <name>MultiSelect_88__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number_10 --></label>
+        <name>Number_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number_16 --></label>
+        <name>Number_16__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number_28 --></label>
+        <name>Number_28__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number_33 --></label>
+        <name>Number_33__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number_44 --></label>
+        <name>Number_44__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number_50 --></label>
+        <name>Number_50__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number_62 --></label>
+        <name>Number_62__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number_97 --></label>
+        <name>Number_97__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number --></label>
+        <name>Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_2 --></label>
+        <name>Percent_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_34 --></label>
+        <name>Percent_34__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_41 --></label>
+        <name>Percent_41__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_42 --></label>
+        <name>Percent_42__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_76 --></label>
+        <name>Percent_76__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_82 --></label>
+        <name>Percent_82__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_86 --></label>
+        <name>Percent_86__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_87 --></label>
+        <name>Percent_87__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_89 --></label>
+        <name>Percent_89__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent_96 --></label>
+        <name>Percent_96__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone_29 --></label>
+        <name>Phone_29__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone_45 --></label>
+        <name>Phone_45__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone_70 --></label>
+        <name>Phone_70__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone_83 --></label>
+        <name>Phone_83__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone_8 --></label>
+        <name>Phone_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone_90 --></label>
+        <name>Phone_90__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone_99 --></label>
+        <name>Phone_99__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist_0 --></label>
+        <name>Picklist_0__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist_39 --></label>
+        <name>Picklist_39__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist_3 --></label>
+        <name>Picklist_3__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist_78 --></label>
+        <name>Picklist_78__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D</masterLabel>
+            <translation><!-- D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E</masterLabel>
+            <translation><!-- E --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sample Parent --></label>
+        <name>Sample_Parent__c</name>
+        <relationshipLabel><!-- Sample Children --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TextArea_13 --></label>
+        <name>TextArea_13__c</name>
+    </fields>
+    <fields>
+        <label><!-- TextArea_17 --></label>
+        <name>TextArea_17__c</name>
+    </fields>
+    <fields>
+        <label><!-- TextArea_46 --></label>
+        <name>TextArea_46__c</name>
+    </fields>
+    <fields>
+        <label><!-- TextArea_52 --></label>
+        <name>TextArea_52__c</name>
+    </fields>
+    <fields>
+        <label><!-- TextArea_65 --></label>
+        <name>TextArea_65__c</name>
+    </fields>
+    <fields>
+        <label><!-- TextArea_67 --></label>
+        <name>TextArea_67__c</name>
+    </fields>
+    <fields>
+        <label><!-- TextArea_92 --></label>
+        <name>TextArea_92__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text_20 --></label>
+        <name>Text_20__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text_24 --></label>
+        <name>Text_24__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text_38 --></label>
+        <name>Text_38__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text_49 --></label>
+        <name>Text_49__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text_4 --></label>
+        <name>Text_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text_53 --></label>
+        <name>Text_53__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text_71 --></label>
+        <name>Text_71__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
