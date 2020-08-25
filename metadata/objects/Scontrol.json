@@ -4,6 +4,16 @@
   "childRelationships": [
     {
       "cascadeDelete": false,
+      "childSObject": "OpportunitySplitType",
+      "deprecatedAndHidden": false,
+      "field": "SplitField",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": true
+    },
+    {
+      "cascadeDelete": false,
       "childSObject": "WebLink",
       "deprecatedAndHidden": false,
       "field": "ScontrolId",
@@ -1200,6 +1210,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All custom s-controls",
@@ -1211,11 +1222,11 @@
   "updateable": true,
   "urls": {
     "rowTemplate": "/services/data/v43.0/sobjects/Scontrol/{ID}",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/Scontrol/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/Scontrol/describe",
-    "uiNewRecord": "https://na85.salesforce.com/01N/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/01N/e",
     "sobject": "/services/data/v43.0/sobjects/Scontrol"
   }
 }
