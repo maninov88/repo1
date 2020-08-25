@@ -181,6 +181,7 @@
         "ConnectedApplication",
         "CustomPermission",
         "ExternalDataSource",
+        "ExternalSocialAccount",
         "NamedCredential"
       ],
       "relationshipName": null,
@@ -284,7 +285,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ExternalSocialAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "NamedCredential"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Network"
         },
         {
           "active": true,
@@ -391,6 +406,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All setup entity access",
