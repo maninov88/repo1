@@ -374,13 +374,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Clean Status",
-          "validFor": null,
-          "value": "CleanStatus"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Company",
           "validFor": null,
           "value": "Company"
@@ -409,13 +402,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Current Generator(s)",
-          "validFor": null,
-          "value": "CurrentGenerators__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "D&B Company",
           "validFor": null,
           "value": "DandbCompany"
@@ -426,6 +412,27 @@
           "label": "Data.com Key",
           "validFor": null,
           "value": "Jigsaw"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Decision Maker",
+          "validFor": null,
+          "value": "Know_Decision_Maker__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Decision Timeframe",
+          "validFor": null,
+          "value": "Decision_Timeframe__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Decision Timeline",
+          "validFor": null,
+          "value": "Decision_Timeline__c"
         },
         {
           "active": true,
@@ -472,6 +479,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "external id",
+          "validFor": null,
+          "value": "external_id__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Fax",
           "validFor": null,
           "value": "Fax"
@@ -503,6 +517,13 @@
           "label": "Geocode Accuracy",
           "validFor": null,
           "value": "GeocodeAccuracy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Has Budget",
+          "validFor": null,
+          "value": "Has_Budget__c"
         },
         {
           "active": true,
@@ -605,13 +626,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Number of Locations",
-          "validFor": null,
-          "value": "NumberofLocations__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Owner (Accepted)",
           "validFor": null,
           "value": "ownerAccepted"
@@ -626,6 +640,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Partner Account",
+          "validFor": null,
+          "value": "PartnerAccount"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Phone",
           "validFor": null,
           "value": "Phone"
@@ -633,16 +654,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Primary",
+          "label": "Project Defined",
           "validFor": null,
-          "value": "Primary__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Product Interest",
-          "validFor": null,
-          "value": "ProductInterest__c"
+          "value": "Project_Defined__c"
         },
         {
           "active": true,
@@ -671,13 +685,6 @@
           "label": "Salutation",
           "validFor": null,
           "value": "Salutation"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "SIC Code",
-          "validFor": null,
-          "value": "SICCode__c"
         },
         {
           "active": true,
@@ -878,6 +885,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All lead history",
