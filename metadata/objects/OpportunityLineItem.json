@@ -11,6 +11,36 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ForecastingFact",
+      "deprecatedAndHidden": false,
+      "field": "ForecastedObjectId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "QuoteLineItem",
+      "deprecatedAndHidden": false,
+      "field": "OpportunityLineItemId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "QuoteLineItemChangeEvent",
+      "deprecatedAndHidden": false,
+      "field": "OpportunityLineItemId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
     }
   ],
   "compactLayoutable": true,
@@ -1172,6 +1202,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All opportunity products",
