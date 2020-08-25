@@ -209,21 +209,21 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Zeronary motif colors compelement color",
+          "label": "Zeronary motif colors complement color",
           "validFor": null,
           "value": "MotifZeronaryComplementColor"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Primary motif colors compelement color",
+          "label": "Primary motif colors complement color",
           "validFor": null,
           "value": "MotifPrimaryComplementColor"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Tertiary motif colors compelement color",
+          "label": "Tertiary motif colors complement color",
           "validFor": null,
           "value": "MotifTertiaryComplementColor"
         },
@@ -718,6 +718,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All custom brand asset",
