@@ -394,7 +394,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "gr",
+          "label": "Guest User Sharing Rule",
           "validFor": null,
           "value": "GuestRule"
         },
@@ -404,6 +404,34 @@
           "label": "Associated guest user sharing",
           "validFor": null,
           "value": "GuestParentImplicit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Associated Guest User Sharing",
+          "validFor": null,
+          "value": "GuestPersonImplicit"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Survey Sharing Rule",
+          "validFor": null,
+          "value": "SurveyShare"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Compliant Data Sharing",
+          "validFor": null,
+          "value": "CompliantCollaboration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manufacturing Target Sharing Rule",
+          "validFor": null,
+          "value": "MfgTargetShare"
         }
       ],
       "polymorphicForeignKey": false,
@@ -623,6 +651,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All user share",
