@@ -376,20 +376,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Planned",
-          "validFor": null,
-          "value": "Planned"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Received",
-          "validFor": null,
-          "value": "Received"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Responded",
           "validFor": null,
           "value": "Responded"
@@ -1979,6 +1965,62 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Advertisement",
+          "validFor": null,
+          "value": "Advertisement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Employee Referral",
+          "validFor": null,
+          "value": "Employee Referral"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "External Referral",
+          "validFor": null,
+          "value": "External Referral"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Partner",
+          "validFor": null,
+          "value": "Partner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Public Relations",
+          "validFor": null,
+          "value": "Public Relations"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Seminar - Internal",
+          "validFor": null,
+          "value": "Seminar - Internal"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Seminar - Partner",
+          "validFor": null,
+          "value": "Seminar - Partner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Trade Show",
+          "validFor": null,
+          "value": "Trade Show"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Web",
           "validFor": null,
           "value": "Web"
@@ -1986,23 +2028,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Phone Inquiry",
+          "label": "Word of mouth",
           "validFor": null,
-          "value": "Phone Inquiry"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Partner Referral",
-          "validFor": null,
-          "value": "Partner Referral"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Purchased List",
-          "validFor": null,
-          "value": "Purchased List"
+          "value": "Word of mouth"
         },
         {
           "active": true,
@@ -2305,6 +2333,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All campaign members",
@@ -2317,11 +2346,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/CampaignMember/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/CampaignMember/{ID}",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/CampaignMember/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/CampaignMember/describe",
-    "uiNewRecord": "https://na85.salesforce.com/00v/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/00v/e",
     "layouts": "/services/data/v43.0/sobjects/CampaignMember/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/CampaignMember"
   }
