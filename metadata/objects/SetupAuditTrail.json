@@ -504,6 +504,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All setup audit trail entries",
