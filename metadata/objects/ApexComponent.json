@@ -903,6 +903,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All visualforce components",
