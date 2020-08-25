@@ -490,26 +490,46 @@
         "Campaign",
         "CampaignMember",
         "Case",
+        "CollaborationGroup",
         "Contact",
         "ContactRequest",
         "Contract",
-        "CustomObject1__c",
+        "ContractLineItem",
+        "Entitlement",
         "Lead",
+        "Limits_Snapshot__c",
+        "LiveChatTranscript",
         "Opportunity",
         "Order",
-        "Order_Line_Item__c",
         "Pricebook2",
         "PricebookEntry",
         "Product2",
+        "Quote",
+        "QuoteLineItem",
+        "Sample_Child__c",
+        "Sample_Parent__c",
+        "ServiceContract",
+        "SocialPersona",
+        "SocialPost",
         "User",
-        "co1__c",
-        "customObject3__c",
-        "grax__GRAXQuery__c",
+        "VoiceCall",
+        "WorkOrder",
+        "WorkOrderLineItem",
+        "fragment1__c",
+        "fragment1_wide__c",
+        "fragment2__c",
+        "fragment2_wide__c",
+        "fragment7__c",
+        "fragment7_wide__c",
+        "fragment8__c",
         "grax__GRAXSettings__c",
         "grax__GRAX_Archive_Process__c",
         "grax__GRAX_Data_Record_Id__c",
         "grax__GRAX_Data_Record__c",
-        "grax__GRAX_Schedule_Process__c"
+        "grax__GRAX_GroupGDR__c",
+        "grax__GRAX_Helper__c",
+        "grax__GRAX_Schedule_Process__c",
+        "wide_nofragment__c"
       ],
       "relationshipName": "Record",
       "relationshipOrder": null,
@@ -1006,14 +1026,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "QuickActionDefinition.Case.LogACall"
+          "value": "QuickActionDefinition.Case.SocialPublisher"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "QuickActionDefinition.Case.NewChildCase"
+          "value": "QuickActionDefinition.CollaborationGroup.NewGroupMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.CollaborationGroup.NewGroupRecord"
         },
         {
           "active": true,
@@ -1021,6 +1048,13 @@
           "label": null,
           "validFor": null,
           "value": "QuickActionDefinition.Contact._LightningRelatedContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.FeedItem.ContentNote"
         },
         {
           "active": true,
@@ -1062,6 +1096,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "QuickActionDefinition.FeedItem.RypplePost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "QuickActionDefinition.FeedItem.TextPost"
         },
         {
@@ -1069,21 +1110,21 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "QuickActionDefinition.Lead.SocialPublisher"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuickActionDefinition.LiveChatTranscript._LightningUpdateLiveChatTranscript"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "QuickActionDefinition.LogACall"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "QuickActionDefinition.NewAccount"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "QuickActionDefinition.NewCase"
         },
         {
           "active": true,
@@ -1118,13 +1159,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "QuickActionDefinition.NewNote"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "QuickActionDefinition.NewOpportunity"
         },
         {
@@ -1139,7 +1173,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "QuickActionDefinition.SendEmail"
+          "value": "QuickActionDefinition.SocialPost.SocialPublisher"
         }
       ],
       "polymorphicForeignKey": false,
@@ -1193,6 +1227,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All recordactions",
