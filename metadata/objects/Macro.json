@@ -939,13 +939,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Campaign",
-          "validFor": null,
-          "value": "Campaign"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Case",
           "validFor": null,
           "value": "Case"
@@ -953,16 +946,65 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "co1",
+          "label": "Channel Program",
           "validFor": null,
-          "value": "co1__c"
+          "value": "ChannelProgram"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "Consumption Schedule",
+          "label": "Channel Program Level",
           "validFor": null,
-          "value": "ConsumptionSchedule"
+          "value": "ChannelProgramLevel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Channel Program Member",
+          "validFor": null,
+          "value": "ChannelProgramMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chat Session",
+          "validFor": null,
+          "value": "LiveAgentSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chat Transcript",
+          "validFor": null,
+          "value": "LiveChatTranscript"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Communication Subscription",
+          "validFor": null,
+          "value": "CommSubscription"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Communication Subscription Channel Type",
+          "validFor": null,
+          "value": "CommSubscriptionChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Communication Subscription Consent",
+          "validFor": null,
+          "value": "CommSubscriptionConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Communication Subscription Timing",
+          "validFor": null,
+          "value": "CommSubscriptionTiming"
         },
         {
           "active": true,
@@ -981,16 +1023,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "CustomObject1",
+          "label": "Contract Line Item",
           "validFor": null,
-          "value": "CustomObject1__c"
+          "value": "ContractLineItem"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "customObject3",
+          "label": "Engagement Channel Type",
           "validFor": null,
-          "value": "customObject3__c"
+          "value": "EngagementChannelType"
         },
         {
           "active": true,
@@ -1002,6 +1044,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "FAQ",
+          "validFor": null,
+          "value": "FAQ__kav"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Feed Item",
           "validFor": null,
           "value": "FeedItem"
@@ -1009,9 +1058,51 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "GRAX : Object Configuration",
+          "label": "fragment1",
           "validFor": null,
-          "value": "grax__GRAXQuery__c"
+          "value": "fragment1__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "fragment1_wide",
+          "validFor": null,
+          "value": "fragment1_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "fragment2",
+          "validFor": null,
+          "value": "fragment2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "fragment2_wide",
+          "validFor": null,
+          "value": "fragment2_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "fragment7",
+          "validFor": null,
+          "value": "fragment7__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "fragment7_wide",
+          "validFor": null,
+          "value": "fragment7_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "fragment8",
+          "validFor": null,
+          "value": "fragment8__c"
         },
         {
           "active": true,
@@ -1037,6 +1128,20 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "GRAX Group GDR",
+          "validFor": null,
+          "value": "grax__GRAX_GroupGDR__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "GRAX Helper",
+          "validFor": null,
+          "value": "grax__GRAX_Helper__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "GRAX Schedule Process",
           "validFor": null,
           "value": "grax__GRAX_Schedule_Process__c"
@@ -1051,9 +1156,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "How To",
+          "validFor": null,
+          "value": "How_To__kav"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Individual",
           "validFor": null,
           "value": "Individual"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Landing Page",
+          "validFor": null,
+          "value": "LandingPage"
         },
         {
           "active": true,
@@ -1065,9 +1184,58 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Limits Snapshot",
+          "validFor": null,
+          "value": "Limits_Snapshot__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marketing Form",
+          "validFor": null,
+          "value": "MarketingForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Marketing Link",
+          "validFor": null,
+          "value": "MarketingLink"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging Session",
+          "validFor": null,
+          "value": "MessagingSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Messaging User",
+          "validFor": null,
+          "value": "MessagingEndUser"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Object Milestone",
+          "validFor": null,
+          "value": "EntityMilestone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Opportunity",
           "validFor": null,
           "value": "Opportunity"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Opportunity Contact Role",
+          "validFor": null,
+          "value": "OpportunityContactRole"
         },
         {
           "active": true,
@@ -1079,9 +1247,37 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Order Line Item",
+          "label": "Partner Fund Allocation",
           "validFor": null,
-          "value": "Order_Line_Item__c"
+          "value": "PartnerFundAllocation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Partner Fund Claim",
+          "validFor": null,
+          "value": "PartnerFundClaim"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Partner Fund Request",
+          "validFor": null,
+          "value": "PartnerFundRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Partner Marketing Budget",
+          "validFor": null,
+          "value": "PartnerMarketingBudget"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Party Consent",
+          "validFor": null,
+          "value": "PartyConsent"
         },
         {
           "active": true,
@@ -1089,6 +1285,48 @@
           "label": "Product",
           "validFor": null,
           "value": "Product2"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quote",
+          "validFor": null,
+          "value": "Quote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sample Child",
+          "validFor": null,
+          "value": "Sample_Child__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Sample Parent",
+          "validFor": null,
+          "value": "Sample_Parent__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service Contract",
+          "validFor": null,
+          "value": "ServiceContract"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Social Post",
+          "validFor": null,
+          "value": "SocialPost"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "SOS Session",
+          "validFor": null,
+          "value": "SOSSession"
         },
         {
           "active": true,
@@ -1103,6 +1341,34 @@
           "label": "User",
           "validFor": null,
           "value": "User"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Voice Call",
+          "validFor": null,
+          "value": "VoiceCall"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "wide_nofragment",
+          "validFor": null,
+          "value": "wide_nofragment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Work Order",
+          "validFor": null,
+          "value": "WorkOrder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Work Order Line Item",
+          "validFor": null,
+          "value": "WorkOrderLineItem"
         }
       ],
       "polymorphicForeignKey": false,
@@ -1156,6 +1422,7 @@
   "retrieveable": true,
   "searchLayoutable": true,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All macros",
@@ -1184,11 +1451,11 @@
   "urls": {
     "compactLayouts": "/services/data/v43.0/sobjects/Macro/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/Macro/{ID}",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/Macro/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/Macro/describe",
-    "uiNewRecord": "https://na85.salesforce.com/0JZ/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/0JZ/e",
     "layouts": "/services/data/v43.0/sobjects/Macro/describe/layouts",
     "sobject": "/services/data/v43.0/sobjects/Macro"
   }
