@@ -14,6 +14,16 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "AttachedContentNote",
+      "deprecatedAndHidden": false,
+      "field": "LinkedEntityId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "AttachedContentNotes",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "CombinedAttachment",
       "deprecatedAndHidden": false,
       "field": "ParentId",
@@ -84,7 +94,37 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "ReputationLevel",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ReputationPointsRule",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "Stamp",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "UserCustomBadge",
       "deprecatedAndHidden": false,
       "field": "ParentId",
       "junctionIdListNames": [],
@@ -1108,9 +1148,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Albanian",
+          "validFor": null,
+          "value": "sq"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Albanian (Albania)",
           "validFor": null,
           "value": "sq_AL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Arabic",
+          "validFor": null,
+          "value": "ar"
         },
         {
           "active": true,
@@ -1234,6 +1288,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Armenian",
+          "validFor": null,
+          "value": "hy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Armenian (Armenia)",
           "validFor": null,
           "value": "hy_AM"
@@ -1248,9 +1309,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Bangla",
+          "validFor": null,
+          "value": "bn"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Bangla (Bangladesh)",
           "validFor": null,
           "value": "bn_BD"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Basque",
+          "validFor": null,
+          "value": "eu"
         },
         {
           "active": true,
@@ -1269,9 +1344,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Bosnian",
+          "validFor": null,
+          "value": "bs"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Bosnian (Bosnia & Herzegovina)",
           "validFor": null,
           "value": "bs_BA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bulgarian",
+          "validFor": null,
+          "value": "bg"
         },
         {
           "active": true,
@@ -1290,9 +1379,30 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Catalan",
+          "validFor": null,
+          "value": "ca"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Catalan (Spain,Euro)",
+          "validFor": null,
+          "value": "ca_ES_EURO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Catalan (Spain)",
           "validFor": null,
           "value": "ca_ES"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Chinese",
+          "validFor": null,
+          "value": "zh"
         },
         {
           "active": true,
@@ -1332,7 +1442,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Chinese (Macau SAR China)",
+          "label": "Chinese (Macao SAR China)",
           "validFor": null,
           "value": "zh_MO"
         },
@@ -1360,9 +1470,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Croatian",
+          "validFor": null,
+          "value": "hr"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Croatian (Croatia)",
           "validFor": null,
           "value": "hr_HR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Czech",
+          "validFor": null,
+          "value": "cs"
         },
         {
           "active": true,
@@ -1374,9 +1498,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Danish",
+          "validFor": null,
+          "value": "da"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Danish (Denmark)",
           "validFor": null,
           "value": "da_DK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Dutch",
+          "validFor": null,
+          "value": "nl"
         },
         {
           "active": true,
@@ -1493,6 +1631,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "English (Eswatini)",
+          "validFor": null,
+          "value": "en_SZ"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "English (Falkland Islands)",
           "validFor": null,
           "value": "en_FK"
@@ -1552,6 +1697,13 @@
           "label": "English (Indonesia)",
           "validFor": null,
           "value": "en_ID"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "English (Ireland,Euro)",
+          "validFor": null,
+          "value": "en_IE_EURO"
         },
         {
           "active": true,
@@ -1717,13 +1869,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "English (Swaziland)",
-          "validFor": null,
-          "value": "en_SZ"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "English (Tanzania)",
           "validFor": null,
           "value": "en_TZ"
@@ -1773,6 +1918,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Estonian",
+          "validFor": null,
+          "value": "et"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Estonian (Estonia)",
           "validFor": null,
           "value": "et_EE"
@@ -1780,9 +1932,30 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Finnish",
+          "validFor": null,
+          "value": "fi"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Finnish (Finland,Euro)",
+          "validFor": null,
+          "value": "fi_FI_EURO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Finnish (Finland)",
           "validFor": null,
           "value": "fi_FI"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "French",
+          "validFor": null,
+          "value": "fr"
         },
         {
           "active": true,
@@ -1804,6 +1977,13 @@
           "label": "French (Comoros)",
           "validFor": null,
           "value": "fr_KM"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "French (France,Euro)",
+          "validFor": null,
+          "value": "fr_FR_EURO"
         },
         {
           "active": true,
@@ -1864,9 +2044,30 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Georgian",
+          "validFor": null,
+          "value": "ka"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Georgian (Georgia)",
           "validFor": null,
           "value": "ka_GE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "German",
+          "validFor": null,
+          "value": "de"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "German (Austria,Euro)",
+          "validFor": null,
+          "value": "de_AT_EURO"
         },
         {
           "active": true,
@@ -1885,9 +2086,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "German (Germany,Euro)",
+          "validFor": null,
+          "value": "de_DE_EURO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "German (Germany)",
           "validFor": null,
           "value": "de_DE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "German (Luxembourg,Euro)",
+          "validFor": null,
+          "value": "de_LU_EURO"
         },
         {
           "active": true,
@@ -1906,9 +2121,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Greek",
+          "validFor": null,
+          "value": "el"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Greek (Greece)",
           "validFor": null,
           "value": "el_GR"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hebrew",
+          "validFor": null,
+          "value": "iw"
         },
         {
           "active": true,
@@ -1920,9 +2149,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Hindi",
+          "validFor": null,
+          "value": "hi"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Hindi (India)",
           "validFor": null,
           "value": "hi_IN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Hungarian",
+          "validFor": null,
+          "value": "hu"
         },
         {
           "active": true,
@@ -1934,9 +2177,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Icelandic",
+          "validFor": null,
+          "value": "is"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Icelandic (Iceland)",
           "validFor": null,
           "value": "is_IS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Indonesian",
+          "validFor": null,
+          "value": "in"
         },
         {
           "active": true,
@@ -1948,9 +2205,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Irish",
+          "validFor": null,
+          "value": "ga"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Irish (Ireland)",
           "validFor": null,
           "value": "ga_IE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Italian",
+          "validFor": null,
+          "value": "it"
         },
         {
           "active": true,
@@ -1965,6 +2236,13 @@
           "label": "Italian (Switzerland)",
           "validFor": null,
           "value": "it_CH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Japanese",
+          "validFor": null,
+          "value": "ja"
         },
         {
           "active": true,
@@ -1986,6 +2264,13 @@
           "label": "Khmer (Cambodia)",
           "validFor": null,
           "value": "km_KH"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Korean",
+          "validFor": null,
+          "value": "ko"
         },
         {
           "active": true,
@@ -2018,9 +2303,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Latvian",
+          "validFor": null,
+          "value": "lv"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Latvian (Latvia)",
           "validFor": null,
           "value": "lv_LV"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lithuanian",
+          "validFor": null,
+          "value": "lt"
         },
         {
           "active": true,
@@ -2039,6 +2338,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Luxembourgish",
+          "validFor": null,
+          "value": "lb"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Luxembourgish (Luxembourg)",
           "validFor": null,
           "value": "lb_LU"
@@ -2046,9 +2352,23 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Macedonian (Macedonia)",
+          "label": "Macedonian",
+          "validFor": null,
+          "value": "mk"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Macedonian (North Macedonia)",
           "validFor": null,
           "value": "mk_MK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Malay",
+          "validFor": null,
+          "value": "ms"
         },
         {
           "active": true,
@@ -2063,6 +2383,13 @@
           "label": "Malay (Malaysia)",
           "validFor": null,
           "value": "ms_MY"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Maltese",
+          "validFor": null,
+          "value": "mt"
         },
         {
           "active": true,
@@ -2088,6 +2415,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Norwegian",
+          "validFor": null,
+          "value": "no"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Norwegian (Norway)",
           "validFor": null,
           "value": "no_NO"
@@ -2109,9 +2443,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Polish",
+          "validFor": null,
+          "value": "pl"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Polish (Poland)",
           "validFor": null,
           "value": "pl_PL"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Portuguese",
+          "validFor": null,
+          "value": "pt"
         },
         {
           "active": true,
@@ -2158,6 +2506,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Romanian",
+          "validFor": null,
+          "value": "ro"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Romanian (Moldova)",
           "validFor": null,
           "value": "ro_MD"
@@ -2168,6 +2523,13 @@
           "label": "Romanian (Romania)",
           "validFor": null,
           "value": "ro_RO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Romansh",
+          "validFor": null,
+          "value": "rm"
         },
         {
           "active": true,
@@ -2186,9 +2548,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Russian",
+          "validFor": null,
+          "value": "ru"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Russian (Russia)",
           "validFor": null,
           "value": "ru_RU"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Serbian (Cyrillic)",
+          "validFor": null,
+          "value": "sr"
         },
         {
           "active": true,
@@ -2203,6 +2579,13 @@
           "label": "Serbian (Cyrillic) (Serbia)",
           "validFor": null,
           "value": "sr_CS"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Serbian (Latin)",
+          "validFor": null,
+          "value": "sh"
         },
         {
           "active": true,
@@ -2228,9 +2611,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Slovak",
+          "validFor": null,
+          "value": "sk"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Slovak (Slovakia)",
           "validFor": null,
           "value": "sk_SK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Slovenian",
+          "validFor": null,
+          "value": "sl"
         },
         {
           "active": true,
@@ -2252,6 +2649,13 @@
           "label": "Somali (Somalia)",
           "validFor": null,
           "value": "so_SO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Spanish",
+          "validFor": null,
+          "value": "es"
         },
         {
           "active": true,
@@ -2375,6 +2779,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Spanish (Spain,Euro)",
+          "validFor": null,
+          "value": "es_ES_EURO"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Spanish (Spain)",
           "validFor": null,
           "value": "es_ES"
@@ -2403,9 +2814,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Swedish",
+          "validFor": null,
+          "value": "sv"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Swedish (Sweden)",
           "validFor": null,
           "value": "sv_SE"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Tagalog",
+          "validFor": null,
+          "value": "tl"
         },
         {
           "active": true,
@@ -2424,6 +2849,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Tamil",
+          "validFor": null,
+          "value": "ta"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Tamil (India)",
           "validFor": null,
           "value": "ta_IN"
@@ -2434,6 +2866,13 @@
           "label": "Tamil (Sri Lanka)",
           "validFor": null,
           "value": "ta_LK"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Thai",
+          "validFor": null,
+          "value": "th"
         },
         {
           "active": true,
@@ -2452,6 +2891,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Turkish",
+          "validFor": null,
+          "value": "tr"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Turkish (Turkey)",
           "validFor": null,
           "value": "tr_TR"
@@ -2459,9 +2905,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Ukrainian",
+          "validFor": null,
+          "value": "uk"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Ukrainian (Ukraine)",
           "validFor": null,
           "value": "uk_UA"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Urdu",
+          "validFor": null,
+          "value": "ur"
         },
         {
           "active": true,
@@ -2480,9 +2940,23 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Vietnamese",
+          "validFor": null,
+          "value": "vi"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Vietnamese (Vietnam)",
           "validFor": null,
           "value": "vi_VN"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Welsh",
+          "validFor": null,
+          "value": "cy"
         },
         {
           "active": true,
@@ -2568,30 +3042,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+13:45) Chatham Daylight Time (Pacific/Chatham)",
-          "validFor": null,
-          "value": "Pacific/Chatham"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+13:00) New Zealand Daylight Time (Pacific/Auckland)",
-          "validFor": null,
-          "value": "Pacific/Auckland"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "(GMT+13:00) Phoenix Islands Time (Pacific/Enderbury)",
           "validFor": null,
           "value": "Pacific/Enderbury"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+13:00) Fiji Summer Time (Pacific/Fiji)",
-          "validFor": null,
-          "value": "Pacific/Fiji"
         },
         {
           "active": true,
@@ -2603,6 +3056,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "(GMT+12:45) Chatham Standard Time (Pacific/Chatham)",
+          "validFor": null,
+          "value": "Pacific/Chatham"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "(GMT+12:00) Petropavlovsk-Kamchatski Standard Time (Asia/Kamchatka)",
           "validFor": null,
           "value": "Asia/Kamchatka"
@@ -2610,23 +3070,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+11:00) Pacific/Norfolk",
+          "label": "(GMT+12:00) New Zealand Standard Time (Pacific/Auckland)",
           "validFor": null,
-          "value": "Pacific/Norfolk"
+          "value": "Pacific/Auckland"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+11:00) Lord Howe Daylight Time (Australia/Lord_Howe)",
+          "label": "(GMT+12:00) Fiji Standard Time (Pacific/Fiji)",
           "validFor": null,
-          "value": "Australia/Lord_Howe"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+11:00) Australian Eastern Daylight Time (Australia/Sydney)",
-          "validFor": null,
-          "value": "Australia/Sydney"
+          "value": "Pacific/Fiji"
         },
         {
           "active": true,
@@ -2638,9 +3091,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+10:30) Australian Central Daylight Time (Australia/Adelaide)",
+          "label": "(GMT+11:00) Norfolk Island Time (Pacific/Norfolk)",
           "validFor": null,
-          "value": "Australia/Adelaide"
+          "value": "Pacific/Norfolk"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+10:30) Lord Howe Standard Time (Australia/Lord_Howe)",
+          "validFor": null,
+          "value": "Australia/Lord_Howe"
         },
         {
           "active": true,
@@ -2648,6 +3108,20 @@
           "label": "(GMT+10:00) Australian Eastern Standard Time (Australia/Brisbane)",
           "validFor": null,
           "value": "Australia/Brisbane"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+10:00) Australian Eastern Standard Time (Australia/Sydney)",
+          "validFor": null,
+          "value": "Australia/Sydney"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+09:30) Australian Central Standard Time (Australia/Adelaide)",
+          "validFor": null,
+          "value": "Australia/Adelaide"
         },
         {
           "active": true,
@@ -2806,6 +3280,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "(GMT+04:30) Iran Daylight Time (Asia/Tehran)",
+          "validFor": null,
+          "value": "Asia/Tehran"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "(GMT+04:00) Azerbaijan Standard Time (Asia/Baku)",
           "validFor": null,
           "value": "Asia/Baku"
@@ -2834,13 +3315,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+03:30) Iran Standard Time (Asia/Tehran)",
-          "validFor": null,
-          "value": "Asia/Tehran"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "(GMT+03:00) East Africa Time (Africa/Nairobi)",
           "validFor": null,
           "value": "Africa/Nairobi"
@@ -2851,6 +3325,20 @@
           "label": "(GMT+03:00) Arabian Standard Time (Asia/Baghdad)",
           "validFor": null,
           "value": "Asia/Baghdad"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:00) Eastern European Summer Time (Asia/Beirut)",
+          "validFor": null,
+          "value": "Asia/Beirut"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:00) Israel Daylight Time (Asia/Jerusalem)",
+          "validFor": null,
+          "value": "Asia/Jerusalem"
         },
         {
           "active": true,
@@ -2869,7 +3357,28 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+03:00) Europe/Istanbul",
+          "label": "(GMT+03:00) Eastern European Summer Time (Europe/Athens)",
+          "validFor": null,
+          "value": "Europe/Athens"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:00) Eastern European Summer Time (Europe/Bucharest)",
+          "validFor": null,
+          "value": "Europe/Bucharest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:00) Eastern European Summer Time (Europe/Helsinki)",
+          "validFor": null,
+          "value": "Europe/Helsinki"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:00) Eastern European Standard Time (Europe/Istanbul)",
           "validFor": null,
           "value": "Europe/Istanbul"
         },
@@ -2904,37 +3413,44 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+02:00) Eastern European Standard Time (Asia/Beirut)",
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Amsterdam)",
           "validFor": null,
-          "value": "Asia/Beirut"
+          "value": "Europe/Amsterdam"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+02:00) Israel Standard Time (Asia/Jerusalem)",
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Berlin)",
           "validFor": null,
-          "value": "Asia/Jerusalem"
+          "value": "Europe/Berlin"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+02:00) Eastern European Standard Time (Europe/Athens)",
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Brussels)",
           "validFor": null,
-          "value": "Europe/Athens"
+          "value": "Europe/Brussels"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+02:00) Eastern European Standard Time (Europe/Bucharest)",
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Paris)",
           "validFor": null,
-          "value": "Europe/Bucharest"
+          "value": "Europe/Paris"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+02:00) Eastern European Standard Time (Europe/Helsinki)",
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Prague)",
           "validFor": null,
-          "value": "Europe/Helsinki"
+          "value": "Europe/Prague"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+02:00) Central European Summer Time (Europe/Rome)",
+          "validFor": null,
+          "value": "Europe/Rome"
         },
         {
           "active": true,
@@ -2946,72 +3462,44 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+01:00) Western European Standard Time (Africa/Casablanca)",
+          "label": "(GMT+01:00) Western European Summer Time (Africa/Casablanca)",
           "validFor": null,
           "value": "Africa/Casablanca"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Amsterdam)",
-          "validFor": null,
-          "value": "Europe/Amsterdam"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Berlin)",
-          "validFor": null,
-          "value": "Europe/Berlin"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Brussels)",
-          "validFor": null,
-          "value": "Europe/Brussels"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Paris)",
-          "validFor": null,
-          "value": "Europe/Paris"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Prague)",
-          "validFor": null,
-          "value": "Europe/Prague"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+01:00) Central European Standard Time (Europe/Rome)",
-          "validFor": null,
-          "value": "Europe/Rome"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+00:00) Irish Standard Time (Europe/Dublin)",
+          "label": "(GMT+01:00) Irish Standard Time (Europe/Dublin)",
           "validFor": null,
           "value": "Europe/Dublin"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+00:00) Western European Standard Time (Europe/Lisbon)",
+          "label": "(GMT+01:00) Western European Summer Time (Europe/Lisbon)",
           "validFor": null,
           "value": "Europe/Lisbon"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+00:00) Greenwich Mean Time (Europe/London)",
+          "label": "(GMT+01:00) British Summer Time (Europe/London)",
           "validFor": null,
           "value": "Europe/London"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+00:00) East Greenland Summer Time (America/Scoresbysund)",
+          "validFor": null,
+          "value": "America/Scoresbysund"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+00:00) Azores Summer Time (Atlantic/Azores)",
+          "validFor": null,
+          "value": "Atlantic/Azores"
         },
         {
           "active": true,
@@ -3019,20 +3507,6 @@
           "label": "(GMT+00:00) Greenwich Mean Time (GMT)",
           "validFor": null,
           "value": "GMT"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT-01:00) East Greenland Standard Time (America/Scoresbysund)",
-          "validFor": null,
-          "value": "America/Scoresbysund"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT-01:00) Azores Standard Time (Atlantic/Azores)",
-          "validFor": null,
-          "value": "Atlantic/Azores"
         },
         {
           "active": true,
@@ -3051,6 +3525,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "(GMT-02:30) Newfoundland Daylight Time (America/St_Johns)",
+          "validFor": null,
+          "value": "America/St_Johns"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "(GMT-03:00) Argentina Standard Time (America/Argentina/Buenos_Aires)",
           "validFor": null,
           "value": "America/Argentina/Buenos_Aires"
@@ -3058,9 +3539,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-03:00) Chile Summer Time (America/Santiago)",
+          "label": "(GMT-03:00) Atlantic Daylight Time (America/Halifax)",
           "validFor": null,
-          "value": "America/Santiago"
+          "value": "America/Halifax"
         },
         {
           "active": true,
@@ -3072,9 +3553,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-03:30) Newfoundland Standard Time (America/St_Johns)",
+          "label": "(GMT-03:00) Atlantic Daylight Time (Atlantic/Bermuda)",
           "validFor": null,
-          "value": "America/St_Johns"
+          "value": "Atlantic/Bermuda"
         },
         {
           "active": true,
@@ -3086,9 +3567,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-04:00) Atlantic Standard Time (America/Halifax)",
+          "label": "(GMT-04:00) Eastern Daylight Time (America/Indiana/Indianapolis)",
           "validFor": null,
-          "value": "America/Halifax"
+          "value": "America/Indiana/Indianapolis"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT-04:00) Eastern Daylight Time (America/New_York)",
+          "validFor": null,
+          "value": "America/New_York"
         },
         {
           "active": true,
@@ -3100,9 +3588,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-04:00) Atlantic Standard Time (Atlantic/Bermuda)",
+          "label": "(GMT-04:00) Chile Standard Time (America/Santiago)",
           "validFor": null,
-          "value": "Atlantic/Bermuda"
+          "value": "America/Santiago"
         },
         {
           "active": true,
@@ -3114,9 +3602,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-05:00) Eastern Standard Time (America/Indiana/Indianapolis)",
+          "label": "(GMT-05:00) Central Daylight Time (America/Chicago)",
           "validFor": null,
-          "value": "America/Indiana/Indianapolis"
+          "value": "America/Chicago"
         },
         {
           "active": true,
@@ -3128,9 +3616,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-05:00) Eastern Standard Time (America/New_York)",
+          "label": "(GMT-05:00) Central Daylight Time (America/Mexico_City)",
           "validFor": null,
-          "value": "America/New_York"
+          "value": "America/Mexico_City"
         },
         {
           "active": true,
@@ -3142,9 +3630,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-06:00) Central Standard Time (America/Chicago)",
+          "label": "(GMT-06:00) Mountain Daylight Time (America/Denver)",
           "validFor": null,
-          "value": "America/Chicago"
+          "value": "America/Denver"
         },
         {
           "active": true,
@@ -3156,23 +3644,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-06:00) Central Standard Time (America/Mexico_City)",
-          "validFor": null,
-          "value": "America/Mexico_City"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT-07:00) Mountain Standard Time (America/Denver)",
-          "validFor": null,
-          "value": "America/Denver"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT-07:00) Mexican Pacific Standard Time (America/Mazatlan)",
+          "label": "(GMT-06:00) Mexican Pacific Daylight Time (America/Mazatlan)",
           "validFor": null,
           "value": "America/Mazatlan"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)",
+          "validFor": null,
+          "value": "America/Los_Angeles"
         },
         {
           "active": true,
@@ -3184,16 +3665,16 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-08:00) Pacific Standard Time (America/Los_Angeles)",
+          "label": "(GMT-07:00) Pacific Daylight Time (America/Tijuana)",
           "validFor": null,
-          "value": "America/Los_Angeles"
+          "value": "America/Tijuana"
         },
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-08:00) Pacific Standard Time (America/Tijuana)",
+          "label": "(GMT-08:00) Alaska Daylight Time (America/Anchorage)",
           "validFor": null,
-          "value": "America/Tijuana"
+          "value": "America/Anchorage"
         },
         {
           "active": true,
@@ -3205,9 +3686,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-09:00) Alaska Standard Time (America/Anchorage)",
+          "label": "(GMT-09:00) Hawaii-Aleutian Daylight Time (America/Adak)",
           "validFor": null,
-          "value": "America/Anchorage"
+          "value": "America/Adak"
         },
         {
           "active": true,
@@ -3222,13 +3703,6 @@
           "label": "(GMT-09:30) Marquesas Time (Pacific/Marquesas)",
           "validFor": null,
           "value": "Pacific/Marquesas"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT-10:00) Hawaii-Aleutian Standard Time (America/Adak)",
-          "validFor": null,
-          "value": "America/Adak"
         },
         {
           "active": true,
@@ -3610,124 +4084,6 @@
       "mask": null,
       "maskType": null,
       "name": "PreferencesRequireOpportunityProducts",
-      "nameField": false,
-      "namePointing": false,
-      "nillable": false,
-      "permissionable": false,
-      "picklistValues": [],
-      "polymorphicForeignKey": false,
-      "precision": 0,
-      "queryByDistance": false,
-      "referenceTargetField": null,
-      "referenceTo": [],
-      "relationshipName": null,
-      "relationshipOrder": null,
-      "restrictedDelete": false,
-      "restrictedPicklist": false,
-      "scale": 0,
-      "searchPrefilterable": false,
-      "soapType": "xsd:boolean",
-      "sortable": false,
-      "type": "boolean",
-      "unique": false,
-      "updateable": true,
-      "writeRequiresMasterRead": false
-    },
-    {
-      "aggregatable": false,
-      "aiPredictionField": false,
-      "autoNumber": false,
-      "byteLength": 0,
-      "calculated": false,
-      "calculatedFormula": null,
-      "cascadeDelete": false,
-      "caseSensitive": false,
-      "compoundFieldName": null,
-      "controllerName": null,
-      "createable": false,
-      "custom": false,
-      "defaultValue": null,
-      "defaultValueFormula": null,
-      "defaultedOnCreate": false,
-      "dependentPicklist": false,
-      "deprecatedAndHidden": false,
-      "digits": 0,
-      "displayLocationInDecimal": false,
-      "encrypted": false,
-      "externalId": false,
-      "extraTypeInfo": null,
-      "filterable": true,
-      "filteredLookupInfo": null,
-      "formulaTreatNullNumberAsZero": false,
-      "groupable": false,
-      "highScaleNumber": false,
-      "htmlFormatted": false,
-      "idLookup": false,
-      "inlineHelpText": null,
-      "label": "TransactionSecurityPolicy",
-      "length": 0,
-      "mask": null,
-      "maskType": null,
-      "name": "PreferencesTransactionSecurityPolicy",
-      "nameField": false,
-      "namePointing": false,
-      "nillable": false,
-      "permissionable": false,
-      "picklistValues": [],
-      "polymorphicForeignKey": false,
-      "precision": 0,
-      "queryByDistance": false,
-      "referenceTargetField": null,
-      "referenceTo": [],
-      "relationshipName": null,
-      "relationshipOrder": null,
-      "restrictedDelete": false,
-      "restrictedPicklist": false,
-      "scale": 0,
-      "searchPrefilterable": false,
-      "soapType": "xsd:boolean",
-      "sortable": false,
-      "type": "boolean",
-      "unique": false,
-      "updateable": true,
-      "writeRequiresMasterRead": false
-    },
-    {
-      "aggregatable": false,
-      "aiPredictionField": false,
-      "autoNumber": false,
-      "byteLength": 0,
-      "calculated": false,
-      "calculatedFormula": null,
-      "cascadeDelete": false,
-      "caseSensitive": false,
-      "compoundFieldName": null,
-      "controllerName": null,
-      "createable": false,
-      "custom": false,
-      "defaultValue": null,
-      "defaultValueFormula": null,
-      "defaultedOnCreate": false,
-      "dependentPicklist": false,
-      "deprecatedAndHidden": false,
-      "digits": 0,
-      "displayLocationInDecimal": false,
-      "encrypted": false,
-      "externalId": false,
-      "extraTypeInfo": null,
-      "filterable": true,
-      "filteredLookupInfo": null,
-      "formulaTreatNullNumberAsZero": false,
-      "groupable": false,
-      "highScaleNumber": false,
-      "htmlFormatted": false,
-      "idLookup": false,
-      "inlineHelpText": null,
-      "label": "TerminateOldestSession",
-      "length": 0,
-      "mask": null,
-      "maskType": null,
-      "name": "PreferencesTerminateOldestSession",
       "nameField": false,
       "namePointing": false,
       "nillable": false,
@@ -5368,6 +5724,27 @@
           "label": null,
           "validFor": null,
           "value": "Base Edition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "G Enterprise Edition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "G Developer Edition"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "G Unlimited Edition"
         }
       ],
       "polymorphicForeignKey": false,
@@ -6061,6 +6438,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All organizations",
