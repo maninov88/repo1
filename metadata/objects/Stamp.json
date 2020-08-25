@@ -24,10 +24,10 @@
     }
   ],
   "compactLayoutable": false,
-  "createable": false,
+  "createable": true,
   "custom": false,
   "customSetting": false,
-  "deletable": false,
+  "deletable": true,
   "deprecatedAndHidden": false,
   "feedEnabled": false,
   "fields": [
@@ -160,7 +160,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": false,
+      "createable": true,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -186,7 +186,7 @@
       "maskType": null,
       "name": "ParentId",
       "nameField": false,
-      "namePointing": false,
+      "namePointing": true,
       "nillable": false,
       "permissionable": false,
       "picklistValues": [],
@@ -195,6 +195,7 @@
       "queryByDistance": false,
       "referenceTargetField": null,
       "referenceTo": [
+        "Network",
         "Organization"
       ],
       "relationshipName": "Parent",
@@ -221,7 +222,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": false,
+      "createable": true,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -266,7 +267,7 @@
       "sortable": true,
       "type": "string",
       "unique": false,
-      "updateable": false,
+      "updateable": true,
       "writeRequiresMasterRead": false
     },
     {
@@ -579,7 +580,7 @@
       "caseSensitive": false,
       "compoundFieldName": null,
       "controllerName": null,
-      "createable": false,
+      "createable": true,
       "custom": false,
       "defaultValue": null,
       "defaultValueFormula": null,
@@ -624,7 +625,7 @@
       "sortable": true,
       "type": "string",
       "unique": false,
-      "updateable": false,
+      "updateable": true,
       "writeRequiresMasterRead": false
     }
   ],
@@ -647,6 +648,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All stamps",
@@ -655,7 +657,7 @@
   ],
   "triggerable": false,
   "undeletable": false,
-  "updateable": false,
+  "updateable": true,
   "urls": {
     "rowTemplate": "/services/data/v43.0/sobjects/Stamp/{ID}",
     "defaultValues": "/services/data/v43.0/sobjects/Stamp/defaultValues?recordTypeId&fields",
