@@ -4,12 +4,16 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Knowledge</tabs>
+    <tabs>standard-KnowledgePublishing</tabs>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
-    <tabs>standard-Case</tabs>
-    <tabs>standard-Solution</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>standard-WaveHome</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>Sample_Parent__c</tabs>
+    <tabs>Limits_Snapshot__c</tabs>
+    <tabs>wide_nofragment__c</tabs>
 </CustomApplication>
