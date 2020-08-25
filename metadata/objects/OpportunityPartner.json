@@ -256,9 +256,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "System Integrator",
+          "label": "Advertiser",
           "validFor": null,
-          "value": "System Integrator"
+          "value": "Advertiser"
         },
         {
           "active": true,
@@ -270,34 +270,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Advertiser",
-          "validFor": null,
-          "value": "Advertiser"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "VAR/Reseller",
-          "validFor": null,
-          "value": "VAR/Reseller"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Distributor",
-          "validFor": null,
-          "value": "Distributor"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Developer",
-          "validFor": null,
-          "value": "Developer"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "Broker",
           "validFor": null,
           "value": "Broker"
@@ -305,30 +277,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Lender",
+          "label": "Consultant",
           "validFor": null,
-          "value": "Lender"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Supplier",
-          "validFor": null,
-          "value": "Supplier"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Institution",
-          "validFor": null,
-          "value": "Institution"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "Contractor",
-          "validFor": null,
-          "value": "Contractor"
+          "value": "Consultant"
         },
         {
           "active": true,
@@ -340,9 +291,44 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "Consultant",
+          "label": "Developer",
           "validFor": null,
-          "value": "Consultant"
+          "value": "Developer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Distributor",
+          "validFor": null,
+          "value": "Distributor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Institution",
+          "validFor": null,
+          "value": "Institution"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Lender",
+          "validFor": null,
+          "value": "Lender"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "System Integrator",
+          "validFor": null,
+          "value": "System Integrator"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "VAR/Reseller",
+          "validFor": null,
+          "value": "VAR/Reseller"
         }
       ],
       "polymorphicForeignKey": false,
@@ -861,6 +847,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All opportunity partner",
