@@ -835,6 +835,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All streaming channels",
@@ -864,11 +865,11 @@
     "compactLayouts": "/services/data/v43.0/sobjects/StreamingChannel/describe/compactLayouts",
     "rowTemplate": "/services/data/v43.0/sobjects/StreamingChannel/{ID}",
     "approvalLayouts": "/services/data/v43.0/sobjects/StreamingChannel/describe/approvalLayouts",
-    "uiDetailTemplate": "https://na85.salesforce.com/{ID}",
-    "uiEditTemplate": "https://na85.salesforce.com/{ID}/e",
+    "uiDetailTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}",
+    "uiEditTemplate": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/{ID}/e",
     "defaultValues": "/services/data/v43.0/sobjects/StreamingChannel/defaultValues?recordTypeId&fields",
     "describe": "/services/data/v43.0/sobjects/StreamingChannel/describe",
-    "uiNewRecord": "https://na85.salesforce.com/0M6/e",
+    "uiNewRecord": "https://grax-20191212-demo-1--fullcopy5.my.salesforce.com/0M6/e",
     "layouts": "/services/data/v43.0/sobjects/StreamingChannel/describe/layouts",
     "push": "/services/data/v43.0/sobjects/StreamingChannel/{ID}/push",
     "sobject": "/services/data/v43.0/sobjects/StreamingChannel"
