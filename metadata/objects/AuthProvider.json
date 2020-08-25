@@ -299,6 +299,13 @@
           "label": "Custom",
           "validFor": null,
           "value": "Custom"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Apple",
+          "validFor": null,
+          "value": "Apple"
         }
       ],
       "polymorphicForeignKey": false,
@@ -1643,6 +1650,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": false,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All authproviders",
