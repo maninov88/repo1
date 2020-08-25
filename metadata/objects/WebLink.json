@@ -1,7 +1,18 @@
 {
   "actionOverrides": [],
   "activateable": false,
-  "childRelationships": [],
+  "childRelationships": [
+    {
+      "cascadeDelete": false,
+      "childSObject": "OpportunitySplitType",
+      "deprecatedAndHidden": false,
+      "field": "SplitField",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": true
+    }
+  ],
   "compactLayoutable": false,
   "createable": true,
   "custom": false,
@@ -100,7 +111,7 @@
       "htmlFormatted": false,
       "idLookup": false,
       "inlineHelpText": null,
-      "label": "Page Or sObject Type Name",
+      "label": "Page or sObject Type Name",
       "length": 40,
       "mask": null,
       "maskType": null,
@@ -116,6 +127,13 @@
           "label": null,
           "validFor": null,
           "value": "Account"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AccountBrand"
         },
         {
           "active": true,
@@ -192,21 +210,49 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "co1__c"
+          "value": "ChannelProgram"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ConsumptionRate"
+          "value": "ChannelProgramLevel"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ConsumptionSchedule"
+          "value": "ChannelProgramMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommSubscription"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommSubscriptionChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommSubscriptionConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommSubscriptionTiming"
         },
         {
           "active": true,
@@ -214,6 +260,34 @@
           "label": null,
           "validFor": null,
           "value": "Contact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ContactPointAddress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ContactPointConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ContactPointEmail"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ContactPointPhone"
         },
         {
           "active": true,
@@ -248,14 +322,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "CustomObject1__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "customObject3__c"
+          "value": "ContractLineItem"
         },
         {
           "active": true,
@@ -318,7 +385,84 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "EngagementChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Entitlement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EntityMilestone"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Event"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "FAQ__kav"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment1__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment1_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment2__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment2_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment7__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment7_wide__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "fragment8__c"
         },
         {
           "active": true,
@@ -360,6 +504,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "grax__GRAX_GroupGDR__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "grax__GRAX_Helper__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "grax__GRAX_Schedule_Process__c"
         },
         {
@@ -367,7 +525,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "grax__GRAXQuery__c"
+          "value": "How_To__kav"
         },
         {
           "active": true,
@@ -395,6 +553,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "LandingPage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Lead"
         },
         {
@@ -402,7 +567,70 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Limits_Snapshot__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LinkedArticle"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LiveAgentSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LiveChatTranscript"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LiveChatVisitor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Macro"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MarketingForm"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MarketingLink"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MessagingEndUser"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MessagingSession"
         },
         {
           "active": true,
@@ -437,14 +665,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Order"
+          "value": "OpportunityTeamMember"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Order_Line_Item__c"
+          "value": "Order"
         },
         {
           "active": true,
@@ -458,6 +686,41 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "PartnerFundAllocation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PartnerFundClaim"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PartnerFundRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PartnerMarketingBudget"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PartyConsent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Product2"
         },
         {
@@ -465,7 +728,28 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ProductConsumptionSchedule"
+          "value": "ProfileSkill"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ProfileSkillEndorsement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ProfileSkillUser"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QLabs__mdt"
         },
         {
           "active": true,
@@ -473,6 +757,20 @@
           "label": null,
           "validFor": null,
           "value": "QuickText"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Quote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "QuoteLineItem"
         },
         {
           "active": true,
@@ -487,6 +785,20 @@
           "label": null,
           "validFor": null,
           "value": "RecordAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Sample_Child__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Sample_Parent__c"
         },
         {
           "active": true,
@@ -514,7 +826,28 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ServiceContract"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Snippet"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "SocialPersona"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "SocialPost"
         },
         {
           "active": true,
@@ -528,7 +861,28 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "SOSSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Task"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Territory2"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Territory2Model"
         },
         {
           "active": true,
@@ -543,6 +897,34 @@
           "label": null,
           "validFor": null,
           "value": "UserProvisioningRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "VoiceCall"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "wide_nofragment__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkBadge"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkBadgeDefinition"
         },
         {
           "active": true,
@@ -591,7 +973,49 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "WorkOrder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkOrderLineItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "WorkPerformanceCycle"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkReward"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkRewardFund"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkRewardFundType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "WorkThanks"
         }
       ],
       "polymorphicForeignKey": false,
@@ -2360,6 +2784,7 @@
   "retrieveable": true,
   "searchLayoutable": false,
   "searchable": true,
+  "sobjectDescribeOption": "FULL",
   "supportedScopes": [
     {
       "label": "All custom buttons or links",
