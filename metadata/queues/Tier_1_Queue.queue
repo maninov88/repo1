@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>tier1@example.com</email>
+    <name>Tier 1 Queue</name>
+    <queueMembers>
+        <users>
+            <user>bill.hzx4h3ctu4la.fbj4cpdzoipe@grax4.demo</user>
+            <user>cindy.foqthdcitv9k.2bpl6kfexbit@grax4.demo</user>
+            <user>customer.qulfmaf3gjwb.6gqtwu9ut0vd@grax4.demo</user>
+            <user>dan@grax4.demo</user>
+            <user>elliot.6eioscyn4zd1.ivlcvmdmddor@grax4.demo</user>
+            <user>ely.n5hhq0lbfay4.4dwezvmkc4nj@grax4.demo</user>
+            <user>partner.rlhrsdw5odis.yppslxshvewc@grax4.demo</user>
+            <user>quinton.ogzpogqekczi.a02tbun7gsuq@grax4.demo</user>
+            <user>sue.9afdirlighit.mhahrsg4h1vj@grax4.demo</user>
+            <user>tim.eyq67hwdf6du.8s8r7j2viyd0@grax4.demo</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>
