@@ -4,8 +4,12 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-Chatter</tabs>
+    <tabs>standard-File</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Sample_Parent__c</tabs>
+    <tabs>Limits_Snapshot__c</tabs>
+    <tabs>wide_nofragment__c</tabs>
 </CustomApplication>
